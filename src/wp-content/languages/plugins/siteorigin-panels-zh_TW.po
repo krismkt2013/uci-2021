@@ -1,0 +1,1881 @@
+# Translation of Plugins - Page Builder by SiteOrigin - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Page Builder by SiteOrigin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-13 18:28:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Page Builder by SiteOrigin - Stable (latest release)\n"
+
+#: inc/settings.php:426
+msgid "The default margin below rows on mobile."
+msgstr "以行動裝置檢視時，項目列下方的預設邊界。"
+
+#: inc/settings.php:425
+msgid "Row Mobile Bottom Margin"
+msgstr "項目列下邊界 (行動裝置)"
+
+#: inc/settings.php:293
+msgid "Disable row/widget background parallax when the browser is smaller than the mobile width."
+msgstr "如果瀏覽器寬度小於 [行動裝置螢幕寬度] 設定，便停用項目列/小工具的背景視差滾動效果。"
+
+#: inc/settings.php:292
+msgid "Disable Parallax On Mobile"
+msgstr "在行動裝置上停用視差滾動效果"
+
+#: inc/styles.php:112
+msgid "CSS declarations applied when in mobile view."
+msgstr "處於行動版檢視時，便會套用這項 CSS 宣告。"
+
+#: inc/styles.php:109
+msgid "Mobile CSS Declarations"
+msgstr "行動版 CSS 宣告"
+
+#: inc/styles.php:104
+msgid "One declaration per line."
+msgstr "請每行輸入一項宣告。"
+
+#: inc/styles.php:101
+msgid "CSS Declarations"
+msgstr "CSS 宣告"
+
+#: inc/widgets/post-loop.php:378
+msgid "Help"
+msgstr "線上說明"
+
+#: inc/styles.php:286
+msgid "Vertical space between cells in a collapsed mobile row. Default is %spx."
+msgstr "可收合的行動版項目列中的儲存格之間的垂直空間，預設值為 %spx。"
+
+#: inc/styles.php:283
+msgid "Mobile Cell Margins"
+msgstr "行動版儲存格邊界"
+
+#: widgets/widgets.php:163
+msgid "It'll be moved to a separate plugin after Page Builder 2.6 is released. "
+msgstr "SiteOrigin Page Builder 2.6 版發佈後，它就成了單獨的外掛。"
+
+#: widgets/widgets.php:162
+msgid "Ideally you should move to using widgets from the SiteOrigin Widgets Bundle instead. "
+msgstr "可以的話，請改用 SiteOrigin Widgets Bundle 裡的小工具加以取代。"
+
+#: widgets/widgets.php:161
+msgid "This is a legacy widget. "
+msgstr "這是舊版小工具，"
+
+#: inc/styles.php:370
+msgid "Color of links inside this widget."
+msgstr "小工具中的連結色彩。"
+
+#: inc/styles.php:351
+msgid "Margins around the widget."
+msgstr "小工具四周的邊界。"
+
+#: inc/styles.php:348
+msgid "Margin"
+msgstr "邊界"
+
+#: inc/styles.php:330
+msgid "Color of links inside this cell."
+msgstr "儲存格中的連結色彩。"
+
+#: inc/styles.php:327 inc/styles.php:367
+msgid "Links Color"
+msgstr "連結色彩"
+
+#: inc/styles.php:322
+msgid "Color of text inside this cell."
+msgstr "儲存格中的文字色彩。"
+
+#: inc/styles.php:309
+msgid "Use row setting"
+msgstr "使用項目列設定"
+
+#: inc/styles.php:305
+msgid "Vertical Alignment"
+msgstr "垂直對齊"
+
+#: inc/styles.php:302
+msgid "Cell"
+msgstr "儲存格"
+
+#: inc/styles.php:278
+msgid "Space below the row on mobile devices. Default is %spx."
+msgstr "行動版檢視資料列下方的空間，預設值為 %spx。"
+
+#: inc/styles.php:275
+msgid "Mobile Bottom Margin"
+msgstr "行動版下邊界"
+
+#: inc/styles.php:266 inc/styles.php:313
+msgid "Stretch"
+msgstr "延伸"
+
+#: inc/styles.php:259
+msgid "Cell Vertical Alignment"
+msgstr "儲存格垂直對齊"
+
+#: inc/styles.php:252
+msgid "Right on Top"
+msgstr "右上方"
+
+#: inc/styles.php:251
+msgid "Left on Top"
+msgstr "左上方"
+
+#: inc/styles.php:246
+msgid "Collapse Order"
+msgstr "收合方向"
+
+#: inc/styles.php:240
+msgid "No Collapse"
+msgstr "不收合"
+
+#: inc/styles.php:235
+msgid "Collapse Behaviour"
+msgstr "收合方式"
+
+#: inc/styles.php:229
+msgid "Full Width Stretched Padded"
+msgstr "填滿至全螢幕寬度"
+
+#: inc/styles.php:217
+msgid "Amount of space between cells. Default is %spx."
+msgstr "儲存格之間的空間，預設值為 %spx。"
+
+#: inc/styles.php:209
+msgid "Space below the row. Default is %spx."
+msgstr "項目列下方的空間，預設值為 %spx。"
+
+#: inc/styles.php:167
+msgid "Parallax (Original Size)"
+msgstr "以原尺寸視差滾動"
+
+#: inc/styles.php:165
+msgid "Fixed"
+msgstr "固定位置"
+
+#: inc/styles.php:164
+msgid "Contain"
+msgstr "將圖片完整置於區域中"
+
+#: inc/styles.php:133
+msgid "Padding when on mobile devices."
+msgstr "用於行動裝置檢視時的邊框間距。"
+
+#: inc/styles.php:130
+msgid "Mobile Padding"
+msgstr "行動版邊框間距"
+
+#: inc/styles.php:93
+msgid "%s Class"
+msgstr "%s類別"
+
+#: inc/styles.php:88
+msgid "A custom ID used for this %s."
+msgstr "用於這個%s的自訂 ID。"
+
+#: inc/styles.php:85
+msgid "%s ID"
+msgstr "%s ID"
+
+#: inc/widgets/layout.php:84
+msgid "This widget can currently only be used in the WordPress admin interface."
+msgstr "這個小工具目前僅能於 WordPress 管理後台介面中使用。"
+
+#: inc/widgets/post-loop-helper.php:57
+msgid "Posts query"
+msgstr "文章查詢條件"
+
+#: inc/widgets/post-loop-helper.php:51
+msgid "More link"
+msgstr "[閱讀全文] 連結"
+
+#: inc/admin.php:1509
+msgid "Block Editor"
+msgstr "區塊編輯器"
+
+#: inc/admin.php:1507
+msgid "Toggle editor selection menu"
+msgstr "切換編輯器選取選單"
+
+#: inc/admin.php:1346
+msgid "This post type is set to use the Classic Editor by default for new posts. If you’d like to change this to the block editor, please go to <a href=\"%s\" class=\"components-notice__action is-link\">Page Builder Settings</a> and uncheck <strong>Use Classic Editor for new posts</strong>"
+msgstr "這個內容類型的新文章預設會以傳統編輯器進行編輯。如需變更這項設定，請前往 <a href=\"%s\" class=\"components-notice__action is-link\">SiteOrigin Page Builder 設定</a>，並停用 <strong>[新文章使用傳統編輯器編輯]</strong> 這項設定。"
+
+#: inc/admin.php:1322
+msgid "Get premium email support for SiteOrigin Page Builder"
+msgstr "取得 SiteOrigin Page Builder 的付費電子郵件技術支援"
+
+#: inc/admin.php:1318
+msgid "Get the row, cell and widget animations addon"
+msgstr "取得項目列、儲存格及小工具的動畫附加元件"
+
+#: inc/admin.php:1314
+msgid "Get a lightbox addon for SiteOrigin widgets"
+msgstr "取得 SiteOrigin 小工具的 Lightbox 附加元件"
+
+#: inc/admin.php:1271
+msgid "%s Widget"
+msgid_plural "%s Widgets"
+msgstr[0] "%s 個小工具"
+
+#: inc/admin.php:1164
+msgid "Missing widget type."
+msgstr "遺漏的小工具類型。"
+
+#: inc/admin.php:1163
+msgid "Please specify the type of widget form to be rendered."
+msgstr "請指定要進行轉譯的的小工具表單類型。"
+
+#: inc/admin.php:491
+msgid "Unknown error. Failed to load the form. Please check your internet connection, contact your web site administrator, or try again later."
+msgstr "未知的錯誤。載入表單時發生錯誤。請檢查網際網路連線、聯絡網站管理員，或稍後再試。"
+
+#: inc/admin.php:473
+msgid "Read our %s if you need help."
+msgstr "如需協助，請參閱這份%s。"
+
+#: inc/admin.php:468
+msgid "Add a {{%= items[0] %}}, {{%= items[1] %}} or {{%= items[2] %}} to get started."
+msgstr "新增{{%= items[0] %}}、{{%= items[1] %}}或{{%= items[2] %}}以便開始建置頁面。"
+
+#: inc/admin.php:467
+msgid "Add a {{%= items[0] %}} or {{%= items[1] %}} to get started."
+msgstr "新增{{%= items[0] %}}或{{%= items[1] %}}以便開始建置頁面。"
+
+#: inc/admin.php:466
+msgid "Add a {{%= items[0] %}} to get started."
+msgstr "新增{{%= items[0] %}}以便開始建置頁面。"
+
+#: inc/admin.php:465
+msgid "Hmmm... Adding layout elements is not enabled. Please check if Page Builder has been configured to allow adding elements."
+msgstr "新增版面配置元素的功能未啟用，請檢查 SiteOrigin Page Builder 是否已設定為可新增元素。"
+
+#: inc/admin.php:461
+msgid "New Row"
+msgstr "新增項目列"
+
+#: inc/admin.php:459
+msgid "Untitled"
+msgstr "未命名"
+
+#: inc/admin.php:458
+msgid "Draft"
+msgstr "草稿"
+
+#: inc/admin.php:456
+msgid "Paste Row"
+msgstr "貼上項目列"
+
+#: inc/admin.php:455
+msgid "Copy Row"
+msgstr "複製項目列"
+
+#: inc/admin.php:451
+msgid "Row Actions"
+msgstr "項目列操作"
+
+#: inc/admin.php:449
+msgid "Paste Widget Below"
+msgstr "貼上下方的小工具"
+
+#: inc/admin.php:448
+msgid "Copy Widget"
+msgstr "複製小工具"
+
+#: inc/admin.php:447
+msgid "Delete Widget"
+msgstr "刪除小工具"
+
+#: inc/admin.php:446
+msgid "Duplicate Widget"
+msgstr "再製小工具"
+
+#: inc/admin.php:445
+msgid "Edit Widget"
+msgstr "編輯小工具"
+
+#: inc/admin.php:444
+msgid "Widget Actions"
+msgstr "小工具操作"
+
+#: inc/admin.php:442
+msgid "Paste Widget"
+msgstr "貼上小工具"
+
+#: inc/admin.php:441
+msgid "Cell Actions"
+msgstr "儲存格操作"
+
+#: inc/admin.php:430
+msgid "%s is ready to insert."
+msgstr "%s 已可進行插入。"
+
+#: inc/admin.php:412
+msgid "Row pasted"
+msgstr "項目列已貼上"
+
+#: inc/styles-admin.php:256
+msgid "External URL"
+msgstr "外部網址"
+
+#: inc/styles-admin.php:199 inc/styles.php:265 inc/styles.php:312
+msgid "Bottom"
+msgstr "下"
+
+#: inc/styles-admin.php:191 inc/styles.php:263 inc/styles.php:310
+msgid "Top"
+msgstr "上"
+
+#: inc/styles-admin.php:92
+msgid "Mobile Layout"
+msgstr "行動版版面配置"
+
+#: inc/styles-admin.php:51
+msgid "Cell%s Styles"
+msgstr "儲存格%s 樣式"
+
+#: inc/styles-admin.php:34
+msgid "Missing style form type."
+msgstr "遺漏的樣式化表單類型。"
+
+#: inc/styles-admin.php:33
+msgid "Please specify the type of style form to be rendered."
+msgstr "請指定要進行轉譯的的樣式化表單類型。"
+
+#: inc/admin.php:1157 inc/styles-admin.php:24
+msgid "Invalid nonce."
+msgstr "無效的隨機碼。"
+
+#: inc/admin.php:1156 inc/styles-admin.php:23
+msgid "The supplied nonce is invalid."
+msgstr "提供的隨機碼無效。"
+
+#: inc/admin-layouts.php:387
+msgid "There was a problem fetching the layout. Please try again later."
+msgstr "擷取版面配置時發生問題，請稍後再試。"
+
+#: inc/admin-layouts.php:341
+msgid "Missing layout ID or no such layout exists"
+msgstr "遺漏版面配置 ID 或沒有這個版面配置"
+
+#: inc/admin-layouts.php:308
+msgid " - Results For:"
+msgstr " - 搜尋關鍵字:"
+
+#: inc/admin-layouts.php:270
+msgid "Clone %s"
+msgstr "再製%s"
+
+#: inc/admin-layouts.php:199
+msgid "Theme Defined Layouts"
+msgstr "佈景主題定義的版面配置"
+
+#: inc/admin-layouts.php:184
+msgid "Invalid request."
+msgstr "無效的要求。"
+
+#: inc/settings.php:476
+msgid "Include styles into your Post Content. This keeps page layouts, even when Page Builder is deactivated."
+msgstr "在文章內容中加入樣式。即使將 SiteOrigin Page Builder 予以停用，仍可以保有原先的版面配置。"
+
+#: inc/settings.php:475
+msgid "Copy Styles"
+msgstr "複製樣式"
+
+#: inc/settings.php:432
+msgid "Allow margin in last row."
+msgstr "容許最後一個項目列包含邊界。"
+
+#: inc/settings.php:431
+msgid "Last Row With Margin"
+msgstr "包含邊界的最後一個項目列"
+
+#: inc/settings.php:419
+msgid "Default margin below rows and widgets."
+msgstr "項目列及小工具下方的預設邊界。"
+
+#: inc/settings.php:418
+msgid "Row/Widget Bottom Margin"
+msgstr "項目列/小工具下邊界"
+
+#: inc/settings.php:405
+msgid "Device width, in pixels, to collapse into a tablet view ."
+msgstr "裝置螢幕寬度收合至平板裝置檢視 (單位為 px)。"
+
+#: inc/settings.php:404
+msgid "Tablet Width"
+msgstr "平板裝置螢幕寬度"
+
+#: inc/settings.php:398
+msgid "The CSS and HTML uses floats instead of flexbox for compatibility with very old browsers."
+msgstr "為保有對舊版瀏覽器的相容性，在 CSS 及 HTML 程式碼中以 float 取代 flixbox。"
+
+#: inc/settings.php:397
+msgid "Use Legacy Layout Engine"
+msgstr "使用舊版版面配置引擎"
+
+#: inc/settings.php:395
+msgid "Always"
+msgstr "總是使用"
+
+#: inc/settings.php:394
+msgid "Never"
+msgstr "永不使用"
+
+#: inc/settings.php:393
+msgid "Detect older browsers"
+msgstr "偵測到舊版瀏覽器"
+
+#: inc/settings.php:387
+msgid "Collapses columns differently on tablet devices."
+msgstr "平板裝置檢視時，收合項目行。"
+
+#: inc/settings.php:386
+msgid "Use Tablet Layout"
+msgstr "使用平板裝置版面配置"
+
+#: inc/settings.php:366
+msgid "Open a widget form as soon as its added to a page."
+msgstr "將小工具新增至頁面立即開啟小工具表單。"
+
+#: inc/settings.php:365
+msgid "Instant Open Widgets"
+msgstr "即時開啟小工具"
+
+#: inc/settings.php:348
+msgid "Add the widget class to Page Builder widgets. Disable this if you're experiencing conflicts."
+msgstr "將小工具類別新增至 SiteOrigin Page Builder 小工具。如果遇到衝突，請停用這項功能。"
+
+#: inc/settings.php:347
+msgid "Add Widget Class"
+msgstr "新增小工具類別"
+
+#: inc/settings.php:329
+msgid "Whether to display layout blocks in edit mode or preview mode in the block editor."
+msgstr "設定在區塊編輯中的 [版面配置] 區塊預設要以編輯模式或預覽模式顯示。"
+
+#: inc/settings.php:327
+msgid "Preview"
+msgstr "預覽"
+
+#: inc/settings.php:323
+msgid "Layout Block Default Mode"
+msgstr "[版面配置] 區塊預設模式"
+
+#: inc/settings.php:316
+msgid "New Classic Editor posts/pages that you create will start with the Page Builder loaded. The %s\"Use Classic Editor for new posts\"%s setting must be enabled."
+msgstr "由 SiteOrgin Page Builder 載入傳統編輯器的新文章/頁面。必須先啟用 [%s新文章使用傳統編輯器編輯%s] 這項設定。"
+
+#: inc/settings.php:314
+msgid "Default To Page Builder Interface"
+msgstr "預設使用 SiteOrigin Page Builder"
+
+#: inc/settings.php:306
+msgid "Display the %sSiteOrigin Premium%s upgrade teaser in the Page Builder toolbar."
+msgstr "在 SiteOrigin Page Builder 工具列顯示 %sSiteOrigin Premium%s 升級提示。"
+
+#: inc/settings.php:304
+msgid "Upgrade Teaser"
+msgstr "升級提示"
+
+#: inc/settings.php:299
+msgid "Page Builder will create an emulated sidebar, that contains all widgets in the page."
+msgstr "SiteOrigin Page Builder 會建立一個包含這個頁面全部小工具的模擬資訊欄。"
+
+#: inc/settings.php:298
+msgid "Sidebars Emulator"
+msgstr "資訊欄模擬器"
+
+#: inc/settings.php:287
+msgid "How many pixels of scrolling result in a single pixel of parallax motion. 0 means automatic. Lower values give more noticeable effect."
+msgstr "在單一像素的視差滾動位移量中，設定要滾動多少像素量。0 代表自動，較低的值會有更顯著的效果。"
+
+#: inc/settings.php:286
+msgid "Limit Parallax Motion"
+msgstr "限制視差滾動位移量"
+
+#: inc/settings.php:281
+msgid "Display a widget count in the admin lists of posts/pages where you're using Page Builder."
+msgstr "在文章/頁面清單中，顯示採用 SiteOrigin Page Builder 建置的內容使用了多少小工具。"
+
+#: inc/settings.php:280
+msgid "Display Widget Count"
+msgstr "顯示小工具數量"
+
+#: inc/settings.php:272
+msgid "Display a %sSiteOrigin Page Builder%s post state in the admin lists of posts/pages to indicate Page Builder is active."
+msgstr "在管理後台的文章/頁面清單中，為使用了頁面編輯器的內容在標題處標註 %sSiteOrigin Page Builder%s 加以區別。"
+
+#: inc/settings.php:270
+msgid "Display Post State"
+msgstr "顯示頁面編輯器使用狀態"
+
+#: inc/settings.php:265
+msgid "Display a Live Editor button in the admin bar."
+msgstr "在管理列顯示 [即時編輯器] 按鈕。"
+
+#: inc/settings.php:264
+msgid "Live Editor Quick Link"
+msgstr "即時編輯器快速連結"
+
+#: inc/settings.php:259
+msgid "New posts of the above Post Types will be created using the Classic Editor."
+msgstr "啟用這項設定後，在上方設定的內容類型所新增的新文章，會以傳統編輯器進行編輯。"
+
+#: inc/settings.php:258
+msgid "Use Classic Editor for New Posts"
+msgstr "新文章使用傳統編輯器編輯"
+
+#: inc/settings.php:253
+msgid "The post types on which to use Page Builder."
+msgstr "設定可使用 SiteOrigin Page Builder 編輯的內容類型。"
+
+#: inc/admin-dashboard.php:107
+msgid "Get Premium"
+msgstr "購買 Premium 版本"
+
+#. translators: accessibility text
+#: inc/admin-dashboard.php:88
+msgid "(email SiteOrigin support)"
+msgstr "(SiteOrigin 電子郵件技術支援)"
+
+#: inc/admin-dashboard.php:86
+msgid "Email Support"
+msgstr "電子郵件技術支援"
+
+#. translators: accessibility text
+#: inc/admin-dashboard.php:78 inc/admin-dashboard.php:97
+#: inc/admin-dashboard.php:109
+msgid "(opens in a new window)"
+msgstr "(在新視窗中開啟)"
+
+#: inc/admin-dashboard.php:76
+msgid "Blog"
+msgstr "官方部落格"
+
+#: inc/admin-dashboard.php:23
+msgid "SiteOrigin Page Builder News"
+msgstr "SiteOrigin Page Builder 新聞"
+
+#: siteorigin-panels.php:419
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr "characters_excluding_spaces"
+
+#: tpl/js-templates.php:613
+msgid "Add SiteOrigin Layout Block"
+msgstr "新增 SiteOrigin [版面配置] 區塊"
+
+#: tpl/js-templates.php:564
+msgid "Toggle mobile mode"
+msgstr "切換至行動裝置預覽模式"
+
+#: tpl/js-templates.php:561
+msgid "Toggle tablet mode"
+msgstr "切換至平板裝置預覽模式"
+
+#: tpl/js-templates.php:558
+msgid "Toggle desktop mode"
+msgstr "切換至桌面裝置預覽模式"
+
+#: tpl/js-templates.php:554 tpl/js-templates.php:555
+msgid "Update"
+msgstr "更新"
+
+#: tpl/js-templates.php:553
+msgid "Save Draft"
+msgstr "儲存草稿"
+
+#: tpl/js-templates.php:422
+msgid "Replace current"
+msgstr "取代目前項目列"
+
+#: tpl/js-templates.php:421
+msgid "Insert before"
+msgstr "插入於目前項目列前方"
+
+#: tpl/js-templates.php:420
+msgid "Insert after"
+msgstr "插入於目前項目列後方"
+
+#: tpl/js-templates.php:378
+msgid "Page Builder Layouts"
+msgstr "SiteOrigin Page Builder 版面配置"
+
+#: tpl/js-templates.php:71
+msgid "Pro Tip"
+msgstr "專業秘訣"
+
+#: tpl/js-templates.php:64 inc/admin.php:474
+msgid "documentation"
+msgstr "線上說明"
+
+#: tpl/js-templates.php:63 inc/admin.php:471
+msgid "Prebuilt Layout"
+msgstr "預先建置版面配置"
+
+#: tpl/js-templates.php:62 inc/admin.php:462 inc/admin.php:470
+#: inc/styles.php:193
+msgid "Row"
+msgstr "項目列"
+
+#: tpl/js-templates.php:61 inc/admin.php:469 inc/styles.php:345
+msgid "Widget"
+msgstr "小工具"
+
+#: tpl/js-templates.php:60
+msgid "Add a %s, %s or %s to get started. Read our %s if you need help."
+msgstr "新增%s、%s或%s以便開始建置頁面。如需協助，請參閱我們的%s。"
+
+#: tpl/js-templates.php:48
+msgid "Revert to Editor"
+msgstr "返回編輯器"
+
+#: tpl/js-templates.php:44 inc/admin.php:165
+msgid "Addons"
+msgstr "附加元件"
+
+#: tpl/js-templates.php:42
+msgid "Page Builder Addons"
+msgstr "SiteOrigin Page Builder 附加元件"
+
+#: tpl/js-templates.php:29
+msgid "Edit History"
+msgstr "編輯歷程記錄"
+
+#: tpl/js-templates.php:24
+msgid "Layouts"
+msgstr "版面配置"
+
+#: settings/tpl/welcome.php:38
+msgid "%s is a single plugin that adds additional settings and functionality to Page Builder, SiteOrigin widgets and SiteOrign themes. SiteOrigin Premium also includes our next level email support service. If you need expert advice and quick replies, consider SiteOrigin Premium."
+msgstr "%s 是一個能夠為 SiteOrigin Page Builder、SiteOrigin 小工具及佈景主題提供更多設定及功能的獨立外掛，SiteOrigin Premium 同時也包含優先的電子郵件技術支援服務。如果需要專家建議及快速回覆，建議購買 SiteOrigin Premium 的約期授權。"
+
+#: settings/tpl/welcome.php:35
+msgid "Get More Features"
+msgstr "獲得更多功能"
+
+#: settings/tpl/welcome.php:32
+msgid "Row and widget styles give you all the control you need to make your content uniquely your own. Change attributes like paddings, background colours and column spacing. You can also enter custom CSS and CSS classes if you need even finer grained control."
+msgstr "資料列及小工具樣式為使用者提供了能讓內容擁有獨一無二外觀的完整控制方式，可變更的屬性包含邊框間距、背景色彩及資料欄之間的間距等項目。如果需要更精準控制方式，還能輸入自訂 CSS 和 CSS 類別控制設計細節。"
+
+#: settings/tpl/welcome.php:29
+msgid "Row and Widget Styles"
+msgstr "資料列及小工具樣式"
+
+#: settings/tpl/welcome.php:26
+msgid "Worry free editing is having the freedom to experiment without fearing mistakes. The History Browser lets you roll forward and back through your changes. Preview changes, then roll back to that version without skipping a beat. Your personal safety net."
+msgstr "請依照各種目的進行各種實驗性設計，而不必擔心發生任何錯誤。編輯歷程記錄讓使用者能夠復原至任何一個版本的變更，只需要先預覽變更，確認後便可完全復原至這個版本的變更，不會遺漏任何細節；這項功能能讓設計者盡情揮灑設計，不須有任何顧慮。"
+
+#: settings/tpl/welcome.php:23
+msgid "History Browser"
+msgstr "編輯歷程記錄"
+
+#: settings/tpl/welcome.php:20
+msgid "The live editor gives you an exact preview of your content, that you can edit in real-time. You can use this to pin-point the sections and widgets you want to edit, then see those edits without leaving the page. Create content in a fraction of the time."
+msgstr "即時編輯器讓使用者可以即時編輯內容，並提供與實際內容一致的精確預覽。使用者可以透過即時編輯器找到要進行編輯的區段及小工具，然後在不離開頁面的情況下查看這相關編輯變更，這樣便能在極短的時間內建立內容。"
+
+#: settings/tpl/welcome.php:17
+msgid "Live Editing"
+msgstr "即時編輯"
+
+#: settings/tpl/welcome.php:14
+msgid "Reorder rows, move widgets, resize columns and build your page, all with your mouse. Page Builder makes it easy to nudge every detail into place, no matter how often you change your mind. We've meticulously crafted each and every interaction to make sure they all feel natural. It's intuitive content editing that doesn't sacrifice on functionality."
+msgstr "只要透過滑鼠，便能將資料列重新排序、調整資料欄大小及建置網站頁面。使用者無論什麼時候想要變更頁面設計，都能透過 SiteOrigin Page Builder 輕鬆將每一項設計細節微調到位。開發團隊精心設計了每一項功能的操作互動，確保每項功能的操作均能自然流暢，而且這些都是不犧牲任何功能的直覺式內容編輯。"
+
+#: settings/tpl/welcome.php:11
+msgid "Simple Drag and Drop"
+msgstr "簡單拖放即可完成操作"
+
+#: settings/tpl/welcome.php:8
+msgid "Page Builder works with standard WordPress widgets, so you’ll always find the widget you need. We've also created the %s to give you a wide range of additional functionality. All the widgets are built on our powerful framework, giving you advanced forms, unlimited colours and 1500+ icons."
+msgstr "SiteOrigin Page Builder 可以使用 WordPress 的標準小工具，因此使用者總能找到需要的小工具。我們也開發了 %s，它內附的小工具全部以 SiteOrigin 功能強大的框架開發，讓使用者立即擁有進階的聯絡表單、不受限制的色彩設定，並能使用超過 1500 種圖示字型，使用者透過它便能使用更多額外的頁面內容元素。"
+
+#: settings/tpl/welcome.php:4
+msgid "Page Builder by SiteOrigin makes it easy to create responsive column based content, using the widgets you know and love. Your content will accurately adapt to all mobile devices, ensuring your site is mobile-ready."
+msgstr "SiteOrigin Page Builder 可以讓使用者透過使用熟悉及喜愛的小工具，輕鬆建立以資料欄為版面配置基準的回應式內容。製作出來的內容會精確的適應各種行動裝置顯示尺寸，確保網站內容適合透過行動裝置瀏覽。"
+
+#: settings/tpl/welcome.php:1
+msgid "Welcome To SiteOrigin Page Builder"
+msgstr "歡迎使用 SiteOrigin Page Builder"
+
+#: settings/tpl/settings.php:25
+msgid "Welcome"
+msgstr "特色介紹"
+
+#: compat/layout-block.php:92
+msgid "You need to add a widget, row, or prebuilt layout before you'll see anything here. :)"
+msgstr "如需在這個區塊中加入任何內容，請先在區塊中新增小工具、項目列或預先建置版面配置。"
+
+#. Author URI of the plugin
+msgid "https://siteorigin.com"
+msgstr "https://siteorigin.com"
+
+#. Author of the plugin
+msgid "SiteOrigin"
+msgstr "SiteOrigin"
+
+#. Description of the plugin
+msgid "A drag and drop, responsive page builder that simplifies building your website."
+msgstr "一個能簡化網站建置、以拖放式操作為主的回應式頁面編輯器。"
+
+#. Plugin URI of the plugin
+msgid "https://siteorigin.com/page-builder/"
+msgstr "https://siteorigin.com/page-builder/"
+
+#. Plugin Name of the plugin
+msgid "Page Builder by SiteOrigin"
+msgstr "SiteOrigin Page Builder"
+
+#: widgets/widgets.php:964
+msgid "Auto Play Video"
+msgstr "自動播放影片"
+
+#: widgets/widgets.php:959
+msgid "An image that displays before the video starts playing."
+msgstr "一張可在影片播放前代表影片內容的圖片。"
+
+#: widgets/widgets.php:957
+msgid "Poster URL"
+msgstr "影片代表圖片網址"
+
+#: widgets/widgets.php:953
+msgid "Video URL"
+msgstr "影片網址"
+
+#: widgets/widgets.php:911
+msgid "A self hosted video player."
+msgstr "自主託管影片播放器。"
+
+#: widgets/widgets.php:909
+msgid "Self Hosted Video (PB)"
+msgstr "自主託管影片 (PB)"
+
+#: widgets/widgets.php:893
+msgid "Video"
+msgstr "影片"
+
+#: widgets/widgets.php:855
+msgid "Embeds a video."
+msgstr "可嵌入影片的小工具。"
+
+#: widgets/widgets.php:853
+msgid "Embedded Video (PB)"
+msgstr "嵌入影片 (PB)"
+
+#: widgets/widgets.php:802
+msgid "Displays a simple image."
+msgstr "顯示單張圖片。"
+
+#: widgets/widgets.php:800
+msgid "Image (PB)"
+msgstr "圖片 (PB)"
+
+#: widgets/widgets.php:782
+msgid "File"
+msgstr "檔案"
+
+#: widgets/widgets.php:781
+msgid "Attachment Page"
+msgstr "附件頁面"
+
+#: widgets/widgets.php:779
+msgid "Link To"
+msgstr "連結到"
+
+#: widgets/widgets.php:774
+msgid "Columns"
+msgstr "項目行"
+
+#: widgets/widgets.php:769
+msgid "Gallery Type"
+msgstr "圖庫類型"
+
+#: widgets/widgets.php:761
+msgid "Full"
+msgstr "完整尺寸"
+
+#: widgets/widgets.php:760
+msgid "Thumbnail"
+msgstr "縮圖尺寸"
+
+#: widgets/widgets.php:759
+msgid "Medium"
+msgstr "中型尺寸"
+
+#: widgets/widgets.php:758
+msgid "Large"
+msgstr "大型尺寸"
+
+#: widgets/widgets.php:755
+msgid "Image Size"
+msgstr "圖片尺寸"
+
+#: widgets/widgets.php:751
+msgid "Comma separated attachment IDs. Defaults to all current page's attachments."
+msgstr "請使用逗號分隔附件 ID。圖庫預設會包含目前頁面中的全部附件。"
+
+#: widgets/widgets.php:747
+msgid "edit gallery"
+msgstr "編輯圖庫"
+
+#: widgets/widgets.php:746
+msgid "Gallery Images"
+msgstr "圖庫圖片"
+
+#: widgets/widgets.php:707
+msgid "Displays a gallery."
+msgstr "將多張圖片以圖庫方式顯示。"
+
+#: widgets/widgets.php:705
+msgid "Gallery (PB)"
+msgstr "圖庫 (PB)"
+
+#: widgets/widgets.php:644
+msgid "Additional Arguments"
+msgstr "其他引數"
+
+#: widgets/widgets.php:244
+msgid "%s Style"
+msgstr "%s樣式"
+
+#: widgets/widgets.php:220
+msgid "Style"
+msgstr "樣式"
+
+#: widgets/widgets/testimonial/testimonial.php:32
+msgid "URL"
+msgstr "網址"
+
+#: widgets/widgets/testimonial/testimonial.php:23
+msgid "Image"
+msgstr "圖片"
+
+#: widgets/widgets/testimonial/testimonial.php:19
+msgid "Location"
+msgstr "地區"
+
+#: widgets/widgets/testimonial/testimonial.php:8
+msgid "Displays a bullet list of points"
+msgstr "顯示具有項目符號清單的觀點內容。"
+
+#: widgets/widgets/testimonial/testimonial.php:6
+msgid "Testimonial (PB)"
+msgstr "證言 (PB)"
+
+#: widgets/widgets/price-box/price-box.php:50
+msgid "Feature List"
+msgstr "產品規格表"
+
+#: widgets/widgets/price-box/price-box.php:31
+msgid "Features Text"
+msgstr "產品規格內容"
+
+#: widgets/widgets/price-box/price-box.php:27
+msgid "Information Text"
+msgstr "產品資訊內容"
+
+#: widgets/widgets/price-box/price-box.php:23
+msgid "Per"
+msgstr "計價單位"
+
+#: widgets/widgets/price-box/price-box.php:19
+msgid "Price"
+msgstr "價格"
+
+#: widgets/widgets/price-box/price-box.php:6
+msgid "Price Box (PB)"
+msgstr "價目表 (PB)"
+
+#: widgets/widgets/price-box/price-box.php:32 widgets/widgets/list/list.php:20
+msgid "Start each new point with an asterisk (*)"
+msgstr "請在每個清單項目開始處加上星號 (*)"
+
+#: widgets/widgets/price-box/price-box.php:8 widgets/widgets/list/list.php:8
+msgid "Displays a bullet list of elements"
+msgstr "顯示具有項目符號清單的元素內容。"
+
+#: widgets/widgets/list/list.php:6
+msgid "List (PB)"
+msgstr "清單 (PB)"
+
+#: widgets/widgets/call-to-action/call-to-action.php:37
+#: widgets/widgets/price-box/price-box.php:49
+msgid "Button"
+msgstr "按鈕"
+
+#: widgets/widgets/call-to-action/call-to-action.php:27
+#: widgets/widgets/price-box/price-box.php:40
+msgid "Button URL"
+msgstr "按鈕網址"
+
+#: widgets/widgets/call-to-action/call-to-action.php:23
+#: widgets/widgets/price-box/price-box.php:36
+msgid "Button Text"
+msgstr "按鈕文字"
+
+#: widgets/widgets/call-to-action/call-to-action.php:19
+msgid "Sub Title"
+msgstr "子標題"
+
+#: widgets/widgets/call-to-action/call-to-action.php:8
+msgid "A Call to Action block"
+msgstr "建立行動號召區塊。"
+
+#: widgets/widgets/call-to-action/call-to-action.php:6
+msgid "Call To Action (PB)"
+msgstr "行動號召 (PB)"
+
+#: widgets/widgets/button/button.php:32
+msgid "Justify"
+msgstr "左右對齊"
+
+#: widgets/widgets/button/button.php:31 inc/styles.php:264 inc/styles.php:311
+msgid "Center"
+msgstr "置中"
+
+#: widgets/widgets/button/button.php:30 inc/styles-admin.php:195
+msgid "Right"
+msgstr "右"
+
+#: widgets/widgets/button/button.php:29 inc/styles-admin.php:203
+msgid "Left"
+msgstr "左"
+
+#: widgets/widgets/button/button.php:27
+msgid "Button Alignment"
+msgstr "按鈕對齊方式"
+
+#: widgets/widgets/call-to-action/call-to-action.php:31
+#: widgets/widgets/price-box/price-box.php:44
+#: widgets/widgets/testimonial/testimonial.php:36
+#: widgets/widgets/button/button.php:23
+msgid "Open In New Window"
+msgstr "在新視窗中開啟"
+
+#: widgets/widgets.php:839 widgets/widgets/button/button.php:19
+msgid "Destination URL"
+msgstr "目標網址"
+
+#: widgets/widgets/testimonial/testimonial.php:27
+#: widgets/widgets/button/button.php:15 widgets/widgets/list/list.php:19
+msgid "Text"
+msgstr "內容"
+
+#: widgets/widgets/button/button.php:6
+msgid "Button (PB)"
+msgstr "按鈕 (PB)"
+
+#: widgets/widgets/animated-image/animated-image.php:25
+msgid "Slide Right"
+msgstr "向右滑動"
+
+#: widgets/widgets/animated-image/animated-image.php:24
+msgid "Slide Left"
+msgstr "向左滑動"
+
+#: widgets/widgets/animated-image/animated-image.php:23
+msgid "Slide Down"
+msgstr "向下滑動"
+
+#: widgets/widgets/animated-image/animated-image.php:22
+msgid "Slide Up"
+msgstr "向上滑動"
+
+#: widgets/widgets/animated-image/animated-image.php:21
+msgid "Fade In"
+msgstr "淡入"
+
+#: widgets/widgets/animated-image/animated-image.php:19
+msgid "Animation"
+msgstr "動畫效果"
+
+#: widgets/widgets.php:835 widgets/widgets/animated-image/animated-image.php:15
+msgid "Image URL"
+msgstr "圖片網址"
+
+#: widgets/widgets/animated-image/animated-image.php:8
+msgid "An image that animates in when it enters the screen."
+msgstr "進入螢幕畫面時會以動畫效果呈現的圖片。"
+
+#: widgets/widgets/animated-image/animated-image.php:6
+msgid "Animated Image (PB)"
+msgstr "動畫圖片 (PB)"
+
+#: widgets/widgets.php:648 inc/widgets/post-loop.php:372
+msgid "Additional query arguments. See 1{query_posts}."
+msgstr "如需進一步瞭解其他查詢引數，請參閱〈1{query_posts}〉一文。"
+
+#: inc/widgets/post-loop.php:365
+msgid "Additional "
+msgstr "其他查詢引數"
+
+#: widgets/widgets.php:638 inc/widgets/post-loop.php:360
+msgid "Only Sticky"
+msgstr "僅顯示置頂文章"
+
+#: widgets/widgets.php:637 inc/widgets/post-loop.php:359
+msgid "Exclude Sticky"
+msgstr "排除置頂文章"
+
+#: widgets/widgets.php:636 inc/widgets/post-loop.php:358
+msgid "Ignore Sticky"
+msgstr "忽略置頂文章"
+
+#: widgets/widgets.php:635 widgets/widgets.php:757
+#: inc/widgets/post-loop.php:357 inc/styles.php:250
+msgid "Default"
+msgstr "預設"
+
+#: widgets/widgets.php:633 inc/widgets/post-loop.php:355
+msgid "Sticky Posts"
+msgstr "置頂文章"
+
+#: widgets/widgets.php:626 inc/widgets/post-loop.php:350
+msgid "Ascending"
+msgstr "升冪"
+
+#: widgets/widgets.php:627 inc/widgets/post-loop.php:349
+msgid "Descending"
+msgstr "降冪"
+
+#: widgets/widgets.php:624 inc/widgets/post-loop.php:347
+msgid "Order"
+msgstr "排序冪次"
+
+#: inc/widgets/post-loop.php:342
+msgid "Post In Order"
+msgstr "文章排序"
+
+#: widgets/widgets.php:618 inc/widgets/post-loop.php:341
+msgid "Menu Order"
+msgstr "選單排序"
+
+#: widgets/widgets.php:617 inc/widgets/post-loop.php:340
+msgid "Comment Count"
+msgstr "留言計數"
+
+#: widgets/widgets.php:616 inc/widgets/post-loop.php:339
+msgid "Random"
+msgstr "隨機順序"
+
+#: widgets/widgets.php:615 inc/widgets/post-loop.php:338
+msgid "Parent"
+msgstr "上層項目"
+
+#: widgets/widgets.php:614 inc/widgets/post-loop.php:337
+msgid "Modified"
+msgstr "修改日期"
+
+#: widgets/widgets.php:613 inc/widgets/post-loop.php:336
+msgid "Date"
+msgstr "發佈日期"
+
+#: widgets/widgets.php:611 widgets/widgets.php:612
+#: widgets/widgets/testimonial/testimonial.php:15 inc/widgets/post-loop.php:334
+#: inc/widgets/post-loop.php:335
+msgid "Name"
+msgstr "名稱"
+
+#: widgets/widgets.php:610 inc/widgets/post-loop.php:333
+msgid "Author"
+msgstr "作者"
+
+#: widgets/widgets.php:609 inc/widgets/post-loop.php:332
+msgid "Post ID"
+msgstr "文章 ID"
+
+#: widgets/widgets.php:606 inc/widgets/post-loop.php:329
+msgid "Order By"
+msgstr "排序依據"
+
+#: widgets/widgets.php:601 inc/widgets/post-loop.php:324
+msgid "Posts Per Page"
+msgstr "文章顯示數量"
+
+#: widgets/widgets.php:594 inc/widgets/post-loop.php:315
+msgid "Post Type"
+msgstr "內容類型"
+
+#: inc/widgets/post-loop.php:300 inc/widgets/post-loop-helper.php:52
+msgid "If the template supports it, cut posts and display the more link."
+msgstr "如果範本提供支援，文章會依設定截斷並顯示 [閱讀全文] 連結。"
+
+#: inc/widgets/post-loop.php:298
+msgid "More Link"
+msgstr "[閱讀全文] 連結"
+
+#: inc/widgets/post-loop.php:282 inc/widgets/post-loop-helper.php:45
+msgid "Template"
+msgstr "範本"
+
+#: inc/widgets/post-loop.php:248
+msgid "Your theme doesn't have any post loops."
+msgstr "目前使用的佈景主題不包含任何文章輪播。"
+
+#: inc/widgets/post-loop.php:26 inc/widgets/post-loop-helper.php:33
+msgid "Displays a post loop."
+msgstr "以輪播方式顯示文章。"
+
+#: inc/widgets/post-loop.php:24 inc/widgets/post-loop-helper.php:31
+msgid "Post Loop"
+msgstr "文章輪播"
+
+#: inc/widgets/post-content.php:67
+msgid "Display Content"
+msgstr "顯示內容"
+
+#: inc/widgets/post-content.php:62
+msgid "Featured Image"
+msgstr "精選圖片"
+
+#: widgets/widgets/call-to-action/call-to-action.php:15
+#: widgets/widgets/price-box/price-box.php:15 widgets/widgets/list/list.php:15
+#: inc/widgets/post-loop.php:278 inc/widgets/post-content.php:61
+#: inc/widgets/post-loop-helper.php:41
+msgid "Title"
+msgstr "標題"
+
+#: widgets/widgets.php:608 widgets/widgets.php:783
+#: inc/widgets/post-loop.php:331 inc/widgets/post-content.php:60
+msgid "None"
+msgstr "無"
+
+#: inc/widgets/post-content.php:14
+msgid "Displays content from the current post."
+msgstr "在目前文章中顯示內容。"
+
+#: inc/widgets/post-content.php:12
+msgid "Post Content"
+msgstr "文章內容"
+
+#: inc/widgets/layout.php:114
+msgid "Open Builder"
+msgstr "開啟編輯器"
+
+#: inc/widgets/layout.php:15
+msgid "A complete SiteOrigin Page Builder layout as a widget."
+msgstr "將完整功能的 SiteOrigin Page Builder 版面配置編輯器當作小工具使用。"
+
+#: inc/widgets/layout.php:13
+msgid "Layout Builder"
+msgstr "版面配置編輯器"
+
+#: tpl/js-templates.php:603
+msgid "No Results"
+msgstr "沒有符合條件的結果"
+
+#: tpl/js-templates.php:530
+msgid "Restore Version"
+msgstr "還原版本"
+
+#: tpl/js-templates.php:515
+msgid "Page Builder Change History"
+msgstr "SiteOrigin Page Builder 歷程記錄"
+
+#: tpl/js-templates.php:504
+msgid "Download Layout"
+msgstr "下載版面配置"
+
+#: tpl/js-templates.php:490
+msgid "Select Import File"
+msgstr "選取要匯入的檔案"
+
+#: tpl/js-templates.php:487
+msgid "Or"
+msgstr "或"
+
+#: tpl/js-templates.php:486
+msgid "Drop import file here"
+msgstr "將要匯入的檔案拖曳到這裡"
+
+#: tpl/js-templates.php:476
+msgid "Next"
+msgstr "下一頁"
+
+#: tpl/js-templates.php:475
+msgid "Previous"
+msgstr "上一頁"
+
+#: tpl/js-templates.php:447
+msgid "Your search didn't return any results"
+msgstr "這次搜尋並未得到任何結果"
+
+#: tpl/js-templates.php:434
+msgid "Enable"
+msgstr "啟用"
+
+#: tpl/js-templates.php:433
+msgid "Do you want to browse the Prebuilt Layouts directory?"
+msgstr "想瀏覽 [預先建置版面配置] 目錄嗎？"
+
+#: tpl/js-templates.php:404
+msgid "Clone: %s"
+msgstr "再製項目: %s"
+
+#: tpl/js-templates.php:397
+msgid "Import/Export"
+msgstr "匯入/匯出"
+
+#: inc/admin-layouts.php:40 inc/admin-layouts.php:220
+msgid "Layouts Directory"
+msgstr "版面配置目錄"
+
+#: tpl/js-templates.php:382
+msgid "Search"
+msgstr "搜尋"
+
+#: tpl/js-templates.php:22 tpl/js-templates.php:387
+msgid "Prebuilt Layouts"
+msgstr "預先建置版面配置"
+
+#: tpl/js-templates.php:358 tpl/js-templates.php:416
+msgid "Insert"
+msgstr "插入"
+
+#: tpl/js-templates.php:339
+msgid "Set"
+msgstr "設定"
+
+#: tpl/js-templates.php:333
+msgid "1{Set row layout}: %1$s columns with a ratio of %2$s going from %3$s"
+msgstr "1{設定項目列版面配置}: %1$s 個項目行，項目行所佔比率: %2$s，所佔比率低至高的排列方向: %3$s"
+
+#: tpl/js-templates.php:322
+msgid "Right to Left"
+msgstr "從右至左"
+
+#: tpl/js-templates.php:321
+msgid "Left to Right"
+msgstr "從左至右"
+
+#: tpl/js-templates.php:236 tpl/js-templates.php:556
+msgid "Close"
+msgstr "關閉"
+
+#: tpl/js-templates.php:220
+msgid "Add New Widget %s"
+msgstr "新增小工具 %s"
+
+#: tpl/js-templates.php:206 tpl/js-templates.php:271 tpl/js-templates.php:360
+msgid "Done"
+msgstr "完成"
+
+#: tpl/js-templates.php:143 tpl/js-templates.php:267 tpl/js-templates.php:352
+msgid "Delete"
+msgstr "刪除"
+
+#: tpl/js-templates.php:142 tpl/js-templates.php:268 tpl/js-templates.php:353
+msgid "Duplicate"
+msgstr "再製"
+
+#: tpl/js-templates.php:141 inc/settings.php:326
+msgid "Edit"
+msgstr "編輯"
+
+#: tpl/js-templates.php:97 inc/admin.php:454
+msgid "Delete Row"
+msgstr "刪除項目列"
+
+#: tpl/js-templates.php:96 inc/admin.php:453
+msgid "Duplicate Row"
+msgstr "再製項目列"
+
+#: tpl/js-templates.php:95 inc/admin.php:452
+msgid "Edit Row"
+msgstr "編輯項目列"
+
+#: siteorigin-panels.php:521 tpl/js-templates.php:34 tpl/js-templates.php:36
+msgid "Live Editor"
+msgstr "即時編輯器"
+
+#: tpl/js-templates.php:31
+msgid "History"
+msgstr "歷程記錄"
+
+#: tpl/js-templates.php:12 tpl/js-templates.php:14
+msgid "Add Widget"
+msgstr "新增小工具"
+
+#: tpl/help.php:18
+msgid "Read the 1{full documentation} on SiteOrigin. Ask a question on our 2{support forum} if you need help and sign up to 3{our newsletter} to stay up to date with future developments."
+msgstr "在 SiteOrigin 網站上閱讀1{完整的線上說明}。如需協助，請在我們的2{技術支援論壇}提問，並訂閱3{我們的電子報}，以便得知最新的開發進展。"
+
+#: tpl/help.php:3
+msgid "The page layouts are responsive and fully customizable."
+msgstr "頁面版面配置為回應式頁面且可完全自訂。"
+
+#: tpl/help.php:2
+msgid "You can use SiteOrigin Page Builder to create home and sub pages, filled your own widgets."
+msgstr "使用者可以使用 SiteOrigin Page Builder 建立首頁和子頁面，並在頁面中使用小工具。"
+
+#: tpl/admin-home-page.php:64
+msgid "This interface requires Javascript"
+msgstr "這個介面需要使用 Javascript"
+
+#: tpl/admin-home-page.php:60
+msgid "Save Home Page"
+msgstr "儲存首頁"
+
+#: tpl/admin-home-page.php:41
+msgid "Home page updated. 1{View page}."
+msgstr "首頁已更新。1{檢視頁面}。"
+
+#: tpl/admin-home-page.php:25
+msgid "Custom Home Page"
+msgstr "自訂首頁"
+
+#: tpl/admin-home-page.php:21
+msgid "Off"
+msgstr "關閉"
+
+#: tpl/admin-home-page.php:21
+msgid "On"
+msgstr "開啟"
+
+#: inc/admin-dashboard.php:95 inc/admin.php:162
+msgid "Support Forum"
+msgstr "技術支援論壇"
+
+#: inc/admin.php:978
+msgid "The widget 1{%1$s} is not available. Please try locate and install the missing plugin. Post on the 2{support forums} if you need help."
+msgstr "1{%1$s} 小工具無法使用。請嘗試尋找並安裝遺漏的外掛。如需協助，請在2{技術支援論壇}發佈貼文。"
+
+#: inc/admin.php:962
+msgid "Save and reload this page to start using the widget after you've installed it."
+msgstr "安裝完畢後，請儲存並重新載入這個頁面，便能使用這個小工具。"
+
+#: inc/admin.php:956
+msgid "You need to install 1{%1$s} to use the widget 2{%2$s}."
+msgstr "必須先安裝 1{%1$s}，才能使用 2{%2$s} 小工具。"
+
+#: siteorigin-panels.php:501
+msgid "Edit Home Page"
+msgstr "編輯首頁"
+
+#: siteorigin-panels.php:353
+msgid "Read More"
+msgstr "閱讀全文"
+
+#: inc/admin.php:776
+msgid "Untitled Widget"
+msgstr "未命名的小工具"
+
+#: inc/admin.php:484
+msgid "Error uploading or importing file."
+msgstr "上傳或匯入檔案時發生錯誤。"
+
+#: inc/admin.php:483
+msgid "Page Builder layouts"
+msgstr "SiteOrigin Page Builder 版面配置"
+
+#: inc/admin.php:439
+msgid "Column"
+msgstr "個項目行"
+
+#: tpl/js-templates.php:17 tpl/js-templates.php:19 inc/admin.php:438
+msgid "Add Row"
+msgstr "新增項目列"
+
+#: tpl/js-templates.php:224 inc/admin.php:436
+msgid "Search Widgets"
+msgstr "搜尋小工具"
+
+#: inc/admin.php:435
+msgid "Add Widget to Cell"
+msgstr "新增小工具至儲存格"
+
+#: inc/admin.php:434
+msgid "Add Widget Below"
+msgstr "新增下方的小工具"
+
+#: tpl/js-templates.php:97 tpl/js-templates.php:422 inc/admin.php:428
+msgid "Are you sure?"
+msgstr "確定要進行這項操作？"
+
+#: inc/admin.php:426
+msgid "Layout Builder Widget"
+msgstr "版面配置編輯器小工具"
+
+#: inc/admin.php:424
+msgid "Would you like to clear your Page Builder content and revert to using the standard visual editor?"
+msgstr "想清除 SiteOrigin Page Builder 內容、並返回使用標準視覺化編輯器嗎？"
+
+#: inc/admin.php:423
+msgid "Would you like to copy this editor's existing content to Page Builder?"
+msgstr "想將目前編輯器中的內容複製至 SiteOrigin Page Builder 嗎？"
+
+#: inc/admin.php:422
+msgid "Loading prebuilt layout"
+msgstr "正在載入預先建置的版面配置"
+
+#: inc/admin.php:418
+msgid "Prebuilt layout loaded"
+msgstr "預先建置的版面配置已載入"
+
+#: inc/admin.php:415
+msgid "Cell resized"
+msgstr "調整儲存格大小"
+
+#: inc/admin.php:410
+msgid "Row duplicated"
+msgstr "項目列已再製"
+
+#: inc/admin.php:408
+msgid "Row moved"
+msgstr "項目列已移動"
+
+#: inc/admin.php:406
+msgid "Row edited"
+msgstr "項目列已編輯"
+
+#: inc/admin.php:404
+msgid "Row added"
+msgstr "項目列已新增"
+
+#: inc/admin.php:402
+msgid "Row deleted"
+msgstr "項目列已刪除"
+
+#: inc/admin.php:398
+msgid "Widget moved"
+msgstr "小工具已移動"
+
+#: inc/admin.php:396
+msgid "Widget duplicated"
+msgstr "小工具已再製"
+
+#: inc/admin.php:394
+msgid "Widget edited"
+msgstr "小工具已編輯"
+
+#: inc/admin.php:392
+msgid "Widget added"
+msgstr "小工具已新增"
+
+#: inc/admin.php:390
+msgid "Widget deleted"
+msgstr "小工具已刪除"
+
+#: inc/admin.php:386
+msgid "Converted to editor"
+msgstr "返回編輯器"
+
+#: inc/admin.php:385
+msgid "Version restored"
+msgstr "版本已還原"
+
+#: inc/admin.php:384
+msgid "Original"
+msgstr "初始版本"
+
+#: inc/admin.php:383
+msgid "Current"
+msgstr "目前版本"
+
+#: inc/admin.php:379
+msgid "Now"
+msgstr "現在"
+
+#: inc/admin.php:378
+msgid "%s before"
+msgstr "%s前"
+
+#: inc/admin.php:375
+msgid "%d hour"
+msgstr "%d 小時"
+
+#: inc/admin.php:373
+msgid "%d minute"
+msgstr "%d 分鐘"
+
+#: inc/admin.php:371
+msgid "%d second"
+msgstr "%d 秒"
+
+#: inc/admin.php:368
+msgid "%d hours"
+msgstr "%d 小時"
+
+#: inc/admin.php:366
+msgid "%d minutes"
+msgstr "%d 分鐘"
+
+#: inc/admin.php:364
+msgid "%d seconds"
+msgstr "%d 秒"
+
+#: inc/admin.php:360
+msgid "Page Builder doesn't know about this widget."
+msgstr "SiteOrigin Page Builder 無法識別這個小工具。"
+
+#: inc/admin.php:359
+msgid "Missing Widget"
+msgstr "遺漏的小工具"
+
+#: inc/admin.php:332
+msgid "All Widgets"
+msgstr "全部小工具"
+
+#: inc/home.php:26 inc/admin.php:675
+msgid "Home Page"
+msgstr "首頁"
+
+#: inc/home.php:25
+msgid "Custom Home Page Builder"
+msgstr "自訂首頁編輯器"
+
+#: settings/tpl/settings.php:84
+msgid "Save Settings"
+msgstr "儲存設定"
+
+#: settings/tpl/settings.php:30
+msgid "Settings Saved"
+msgstr "設定已儲存"
+
+#: settings/tpl/settings.php:12
+msgid "Search Settings"
+msgstr "搜尋設定"
+
+#: settings/tpl/help.php:6
+msgid "Please read the 1{settings guide} of the Page Builder documentation for help."
+msgstr "請閱讀 SiteOrigin Page Builder 線上說明的1{設定指南}以取得協助。"
+
+#: inc/settings.php:470
+msgid "Copy content from Page Builder to post content."
+msgstr "從 SiteOrigin Page Builder 複製內容至文章內容。"
+
+#: inc/settings.php:469
+msgid "Copy Content"
+msgstr "複製內容"
+
+#: inc/settings.php:463
+msgid "Content"
+msgstr "內容"
+
+#: inc/settings.php:446
+msgid "The container used for the full width layout."
+msgstr "用於全螢幕寬度版面配置的容器。"
+
+#: inc/settings.php:445
+msgid "Full Width Container"
+msgstr "全螢幕寬度容器"
+
+#: inc/settings.php:439
+msgid "Default spacing between columns in each row."
+msgstr "在每一項目列中，項目行之間的預設空間。"
+
+#: inc/settings.php:438
+msgid "Row Gutter"
+msgstr "項目列邊界間距"
+
+#: inc/settings.php:412
+msgid "Device width, in pixels, to collapse into a mobile view ."
+msgstr "裝置螢幕寬度收合至行動裝置檢視 (單位為 px)。"
+
+#: inc/settings.php:411
+msgid "Mobile Width"
+msgstr "行動裝置螢幕寬度"
+
+#: inc/settings.php:381
+msgid "Collapse widgets, rows and columns on mobile devices."
+msgstr "行動裝置檢視時，收合小工具、項目列及項目行。"
+
+#: inc/settings.php:380
+msgid "Responsive Layout"
+msgstr "回應式版面配置"
+
+#: inc/settings.php:360
+msgid "Display recommend widgets in Page Builder add widget dialog."
+msgstr "在 SiteOrigin Page Builder 的 [新增小工具] 對話框中顯示 [推薦的小工具]。"
+
+#: inc/settings.php:354
+msgid "Load legacy widgets from Page Builder 1."
+msgstr "載入 SiteOrigin Page Builder 1 的舊版小工具，舊版小工具名稱會加註 (PB) 文字。"
+
+#: inc/settings.php:353
+msgid "Legacy Bundled Widgets"
+msgstr "舊版隨附小工具"
+
+#: inc/settings.php:342
+msgid "The HTML used for widget titles. {{title}} is replaced with the widget title."
+msgstr "使用於小工具標題的 HTML 程式碼。{{title}} 在實際頁面會置換為小工具標題。"
+
+#: inc/settings.php:341
+msgid "Widget Title HTML"
+msgstr "小工具標題 HTML 程式碼"
+
+#: inc/settings.php:335
+msgid "Widgets"
+msgstr "小工具"
+
+#: inc/settings.php:251
+msgid "Post Types"
+msgstr "內容類型"
+
+#: inc/settings.php:245
+msgid "General"
+msgstr "一般"
+
+#: inc/settings.php:229
+msgid "Page Builder Settings"
+msgstr "SiteOrigin Page Builder 設定"
+
+#: tpl/js-templates.php:197 inc/admin.php:179 inc/admin.php:592
+#: inc/admin.php:1253 inc/admin.php:1258 inc/settings.php:202
+msgid "Page Builder"
+msgstr "SiteOrigin Page Builder"
+
+#: settings/tpl/settings.php:9 inc/admin.php:1508 inc/admin.php:1555
+#: inc/settings.php:202
+msgid "SiteOrigin Page Builder"
+msgstr "SiteOrigin Page Builder"
+
+#: inc/admin-widget-dialog.php:185 inc/settings.php:359
+msgid "Recommended Widgets"
+msgstr "推薦的小工具"
+
+#: inc/admin-widget-dialog.php:177
+msgid "BBPress"
+msgstr "BBPress"
+
+#: inc/admin-widget-dialog.php:166
+msgid "Jetpack"
+msgstr "Jetpack"
+
+#: inc/admin-widget-dialog.php:155
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin-widget-dialog.php:145
+msgid "WordPress Widgets"
+msgstr "WordPress 小工具"
+
+#: inc/admin-widget-dialog.php:137
+msgid "You can enable the legacy (PB) widgets in the 1{Page Builder settings}."
+msgstr "在 1{SiteOrigin Page Builder 設定} 中便能啟用舊版小工具，舊版小工具名稱會加註 (PB) 字樣。"
+
+#: inc/admin-widget-dialog.php:129
+msgid "Page Builder Widgets"
+msgstr "SiteOrigin Page Builder 小工具"
+
+#: inc/admin-widget-dialog.php:121
+msgid "Install the 1{Widgets Bundle} to get extra widgets."
+msgstr "安裝 1{SiteOrigin Widgets Bundle} 以取得額外的小工具。"
+
+#: inc/admin-widget-dialog.php:114
+msgid "Enable more widgets in the 1{Widgets Bundle settings}."
+msgstr "在 [1{Widgets Bundle 設定}] 中啟用更多小工具。"
+
+#: widgets/widgets.php:164 inc/admin-widget-dialog.php:99
+msgid "Widgets Bundle"
+msgstr "SiteOrigin Widgets Bundle"
+
+#: inc/data/widgets-bundle.php:68
+msgid "Display your posts as a carousel."
+msgstr "以輪轉方式顯示文章。"
+
+#: inc/data/widgets-bundle.php:67
+msgid "SiteOrigin Post Carousel"
+msgstr "SiteOrigin 文章輪轉"
+
+#: inc/data/widgets-bundle.php:56
+msgid "Display site features as a collection of icons."
+msgstr "以圖示集顯示網站精選內容。"
+
+#: inc/data/widgets-bundle.php:55
+msgid "SiteOrigin Features"
+msgstr "SiteOrigin 精選內容"
+
+#: inc/data/widgets-bundle.php:44
+msgid "A basic slider widget."
+msgstr "基本的投影片輪播小工具。"
+
+#: inc/data/widgets-bundle.php:43
+msgid "SiteOrigin Slider"
+msgstr "SiteOrigin 投影片輪播"
+
+#: inc/data/widgets-bundle.php:32
+msgid "Choose images from your media library."
+msgstr "從媒體庫中選擇圖片。"
+
+#: inc/data/widgets-bundle.php:31
+msgid "SiteOrigin Image"
+msgstr "SiteOrigin 圖片"
+
+#: widgets/widgets/button/button.php:8 inc/data/widgets-bundle.php:20
+msgid "A simple button"
+msgstr "協助製作簡易按鈕。"
+
+#: inc/data/widgets-bundle.php:19
+msgid "SiteOrigin Button"
+msgstr "SiteOrigin 按鈕"
+
+#: inc/data/widgets-bundle.php:11 inc/data/widgets-bundle.php:23
+#: inc/data/widgets-bundle.php:35 inc/data/widgets-bundle.php:47
+#: inc/data/widgets-bundle.php:59 inc/data/widgets-bundle.php:71
+#: inc/admin-widget-dialog.php:120
+msgid "SiteOrigin Widgets Bundle"
+msgstr "SiteOrigin Widgets Bundle"
+
+#: inc/data/widgets-bundle.php:8
+msgid "A rich text editor"
+msgstr "視覺化文字編輯器。"
+
+#: inc/data/widgets-bundle.php:7
+msgid "SiteOrigin Editor"
+msgstr "SiteOrigin 編輯器"
+
+#: inc/styles-admin.php:273 inc/settings.php:529
+msgid "Enabled"
+msgstr "啟用"
+
+#: inc/styles-admin.php:253
+msgid "Remove"
+msgstr "移除"
+
+#: inc/styles-admin.php:248
+msgid "Select Image"
+msgstr "選擇圖片"
+
+#: inc/styles-admin.php:106
+msgid "Theme"
+msgstr "佈景主題"
+
+#: inc/styles-admin.php:96
+msgid "Design"
+msgstr "設計"
+
+#: inc/styles-admin.php:88 inc/settings.php:372
+msgid "Layout"
+msgstr "版面配置"
+
+#: inc/styles-admin.php:84
+msgid "Attributes"
+msgstr "屬性"
+
+#: inc/styles-admin.php:55
+msgid "Widget Styles"
+msgstr "小工具樣式"
+
+#: inc/styles-admin.php:46
+msgid "Row Styles"
+msgstr "項目列樣式"
+
+#: inc/revisions.php:83
+msgid "Page Builder Content"
+msgstr "SiteOrigin Page Builder 內容"
+
+#: inc/admin-widgets-bundle.php:77
+msgid "Installing %s"
+msgstr "正在安裝 %s"
+
+#: inc/admin-widgets-bundle.php:19 inc/admin-widgets-bundle.php:20
+msgid "Install Page Builder Plugin"
+msgstr "安裝 SiteOrigin Page Builder 外掛"
+
+#: inc/styles.php:362
+msgid "Color of text inside this widget."
+msgstr "小工具中的文字色彩。"
+
+#: inc/styles.php:319 inc/styles.php:359
+msgid "Font Color"
+msgstr "字型色彩"
+
+#: inc/styles.php:177
+msgid "Border color of the %s."
+msgstr "%s的框線色彩。"
+
+#: inc/styles.php:174
+msgid "Border Color"
+msgstr "框線色彩"
+
+#: inc/styles.php:169
+msgid "How the background image is displayed."
+msgstr "設定背景圖片的顯示方式。"
+
+#: inc/styles.php:166
+msgid "Parallax"
+msgstr "視差滾動"
+
+#: inc/styles.php:163
+msgid "Centered, with original size"
+msgstr "以原尺寸置中"
+
+#: inc/styles.php:162
+msgid "Cover"
+msgstr "覆蓋全區"
+
+#: inc/styles.php:161
+msgid "Tiled Image"
+msgstr "圖片並排"
+
+#: inc/styles.php:157
+msgid "Background Image Display"
+msgstr "背景圖片顯示方式"
+
+#: inc/styles.php:152
+msgid "Background image of the %s."
+msgstr "%s的背景圖片。"
+
+#: inc/styles.php:149
+msgid "Background Image"
+msgstr "背景圖片"
+
+#: inc/styles.php:144
+msgid "Background color of the %s."
+msgstr "%s的背景色彩。"
+
+#: inc/styles.php:141
+msgid "Background Color"
+msgstr "背景色彩"
+
+#: inc/styles.php:228
+msgid "Full Width Stretched"
+msgstr "延伸至全螢幕寬度"
+
+#: inc/styles.php:227
+msgid "Full Width"
+msgstr "全螢幕寬度"
+
+#: inc/styles.php:226 inc/styles.php:239
+msgid "Standard"
+msgstr "標準"
+
+#: inc/styles.php:222
+msgid "Row Layout"
+msgstr "項目列版面配置"
+
+#: inc/styles.php:122
+msgid "Padding around the entire %s."
+msgstr "整個%s四周的邊框間距。"
+
+#: inc/styles.php:119
+msgid "Padding"
+msgstr "邊框間距"
+
+#: inc/styles.php:214
+msgid "Gutter"
+msgstr "邊界間距"
+
+#: inc/styles.php:206
+msgid "Bottom Margin"
+msgstr "下邊界"
+
+#: inc/styles.php:199
+msgid "Class added to all cells in this row."
+msgstr "在這個項目列中將類別新增至全部儲存格。"
+
+#: inc/styles.php:196
+msgid "Cell Class"
+msgstr "儲存格類別"
+
+#: inc/styles.php:96
+msgid "A CSS class"
+msgstr "CSS 類別"

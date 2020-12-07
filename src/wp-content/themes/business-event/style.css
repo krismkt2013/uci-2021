@@ -1,0 +1,302 @@
+/*
+Theme Name: Business Event
+Template: bizberg
+Text Domain: business-event
+Author: Cyclone Themes
+Author URI: https://cyclonethemes.com/
+Theme URI: https://bizbergthemes.com/downloads/business-event-lite/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: WordPress Theme for Events and Conferences. Business Event theme is a dedicated event WordPress theme for business meetups, technology conferences and exhibitions, product release events, business conferences and all other sorts of marketing and business events. A theme compatible with WP Event Manager plugin. Also, It offers special features and templates so it works perfectly with all page builders like Elementor, Visual Composer, Beaver Builder, SiteOrigin, Divi, etc. This Free WordPress theme is fully responsive, cross-browser compatible, translation ready & SEO friendly. If you run into any problem while using our theme, you can refer to extensive documentation or contact our friendly support team. It fully supports Elementor, all the sections are made from Elementor.
+Tags: custom-logo,custom-menu,featured-images,threaded-comments,translation-ready,left-sidebar,right-sidebar,grid-layout,theme-options,blog,news,portfolio
+Version: 0.7
+Tested up to: 5.5
+Requires PHP: 5.6
+*/
+
+#featured_3_grid .bizberg_post_thumb {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#featured_3_grid .bizberg_post_thumb:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.5);
+    -webkit-transform: scale3d(7.9, 6.4, 0) rotate3d(0, 0, 1, 45deg) translate3d(0, -70%, 0);
+    transform: scale3d(7.9, 6.4, 0) rotate3d(0, 0, 1, 45deg) translate3d(0, -70%, 0);
+    z-index: 1;
+    transition: all ease-in-out 0.6s;
+}
+
+#featured_3_grid .bizberg_post_thumb:hover:before{
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 110%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 110%, 0);
+    transition: all ease-in-out 0.6s;
+}
+
+
+
+#featured_3_grid .bizberg_post_text{
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+#featured_3_grid .bizberg_post_title h4 {
+    line-height: 1.2;
+}
+
+#featured_3_grid {
+    padding: 60px 0 40px;
+}
+
+#featured_3_grid .bizberg_post_title {
+    padding-bottom: 5px;
+}
+
+#featured_3_grid .bizberg_post_date {
+    font-size: 12px;
+}
+
+#business_event_popular_posts{
+	padding: 50px 0;
+}
+
+#business_event_popular_posts .thumb1 {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+#business_event_popular_posts .title_wrapper_1{
+	margin-bottom: 40px;
+}
+
+#business_event_popular_posts .content1 {
+    padding: 20px 0;
+}
+
+#business_event_popular_posts .post_meta1 {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+#business_event_popular_posts span.cat1 {
+    background: #e91e63;
+    padding: 3px 20px 3px;
+    bottom: 0;
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+#bizberg_editor_choice {
+    padding: 100px 0;
+    background: #fdeedc;
+    margin-bottom: 50px;
+}
+
+.big_left_post {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    min-height: 230px;
+    overflow: hidden;
+}
+
+.big_left_post:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.5);
+    -webkit-transform: scale3d(7.9, 6.4, 0) rotate3d(0, 0, 1, 45deg) translate3d(0, -70%, 0);
+    transform: scale3d(7.9, 6.4, 0) rotate3d(0, 0, 1, 45deg) translate3d(0, -70%, 0);
+    z-index: 1;
+    transition: all ease-in-out 0.6s;
+}
+
+.big_left_post:hover:before{
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 110%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 110%, 0);
+    transition: all ease-in-out 0.6s;
+}
+
+.business-event-flex-container{
+	display: flex;
+}
+
+#bizberg_editor_choice .content2 {
+    display: flex;
+    height: 100%;
+}
+
+.big_left_post_content {
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.big_left_post_content .post-cat1,#bizberg_editor_choice .content3 .post-cat1 {
+    background: #e91e63;
+    padding: 0px 15px 1px;
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.big_left_post_content h3 a {
+    color: #fff;
+}
+
+.big_left_post_content h3 {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.big_left_post_content .post_meta2 {
+    color: #fff;
+    font-size: 12px;
+}
+
+#bizberg_editor_choice .content3 .post_meta2{
+	color: #818181;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.business-event-flex-container .row{
+	width: 100%;
+}
+
+#bizberg_editor_choice .bizberg-row .thumbnail3 {
+    width: 30%;
+    float: left;
+    margin-right: 15px;
+    position:relative;
+    overflow: hidden;
+}
+
+#bizberg_editor_choice .bizberg-row .thumbnail3:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.5);
+    -webkit-transform: scale3d(7.9, 6.4, 0) rotate3d(0, 0, 1, 45deg) translate3d(0, -70%, 0);
+    transform: scale3d(7.9, 6.4, 0) rotate3d(0, 0, 1, 45deg) translate3d(0, -70%, 0);
+    z-index: 1;
+    transition: all ease-in-out 0.6s;
+}
+
+#bizberg_editor_choice .bizberg-row .thumbnail3:hover:before{
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 110%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 110%, 0);
+    transition: all ease-in-out 0.6s;
+}
+
+#bizberg_editor_choice .bizberg-row .content3 {
+    overflow: hidden;
+}
+
+.bizberg-row {
+    width: 100%;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+#bizberg_editor_choice .right .bizberg-row:last-child {
+    margin-bottom: 0;
+}
+
+h2.editor_heading {
+    margin-bottom: 20px;
+}
+
+#business_event_popular_posts .thumb1{
+    position:relative;
+    overflow: hidden;
+}
+
+#business_event_popular_posts .thumb1:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.5);
+    -webkit-transform: scale3d(7.9, 6.4, 0) rotate3d(0, 0, 1, 45deg) translate3d(0, -70%, 0);
+    transform: scale3d(7.9, 6.4, 0) rotate3d(0, 0, 1, 45deg) translate3d(0, -70%, 0);
+    z-index: 1;
+    transition: all ease-in-out 0.6s;
+}
+
+#business_event_popular_posts .thumb1:hover:before{
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 110%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 110%, 0);
+    transition: all ease-in-out 0.6s;
+}
+
+@media(max-width: 991px){
+    #featured_3_grid .col-sm-12{margin-bottom: 30px; display: flex; align-items: center;}
+
+    #featured_3_grid .bizberg_post_thumb{width:20%;}
+
+    #bizberg_editor_choice{padding-bottom:70px;}
+
+    #bizberg_editor_choice .business-event-flex-container{
+        display:block;
+    }
+
+    #bizberg_editor_choice .business-event-flex-container .row{width:auto;}
+
+    #bizberg_editor_choice .business-event-flex-container .col-sm-12{
+        margin-top:30px;
+    }
+
+    .bizberg-row{
+        display:flex;
+        align-items: center;
+    }
+}
+
+@media(max-width: 767px){
+   #featured_3_grid .bizberg_post_thumb img{width:100%;} 
+}
+
+@media(max-width: 567px){
+    #featured_3_grid .col-sm-12{display: block;}
+
+    #featured_3_grid .bizberg_post_thumb{
+        width:100%;
+        margin:0 0 20px;
+    }
+
+    #featured_3_grid .bizberg_post_text{overflow: visible;}
+}

@@ -1,0 +1,182 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Page Builder Animation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-26 09:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: cvw-pb-animation.php:35
+msgid "AOS Animation"
+msgstr ""
+
+#: cvw-pb-animation.php:46
+msgid "No Animations"
+msgstr ""
+
+#: cvw-pb-animation.php:76 cvw-pb-animation.php:198
+msgid "Animation Type"
+msgstr ""
+
+#: cvw-pb-animation.php:80 cvw-pb-animation.php:202
+msgid "Choose an animation style"
+msgstr ""
+
+#: cvw-pb-animation.php:84 cvw-pb-animation.php:206
+msgid "Duration"
+msgstr ""
+
+#: cvw-pb-animation.php:87 cvw-pb-animation.php:107 cvw-pb-animation.php:209
+#: cvw-pb-animation.php:229
+msgid "300 Milliseconds"
+msgstr ""
+
+#: cvw-pb-animation.php:88 cvw-pb-animation.php:108 cvw-pb-animation.php:210
+#: cvw-pb-animation.php:230
+msgid "600 Milliseconds"
+msgstr ""
+
+#: cvw-pb-animation.php:89 cvw-pb-animation.php:109 cvw-pb-animation.php:211
+#: cvw-pb-animation.php:231
+msgid "900 Milliseconds"
+msgstr ""
+
+#: cvw-pb-animation.php:90 cvw-pb-animation.php:110 cvw-pb-animation.php:212
+#: cvw-pb-animation.php:232
+msgid "1200 Milliseconds"
+msgstr ""
+
+#: cvw-pb-animation.php:91 cvw-pb-animation.php:111 cvw-pb-animation.php:213
+#: cvw-pb-animation.php:233
+msgid "1500 Milliseconds"
+msgstr ""
+
+#: cvw-pb-animation.php:92 cvw-pb-animation.php:112 cvw-pb-animation.php:214
+#: cvw-pb-animation.php:234
+msgid "1800 Milliseconds"
+msgstr ""
+
+#: cvw-pb-animation.php:93 cvw-pb-animation.php:113 cvw-pb-animation.php:215
+#: cvw-pb-animation.php:235
+msgid "2100 Milliseconds"
+msgstr ""
+
+#: cvw-pb-animation.php:94 cvw-pb-animation.php:114 cvw-pb-animation.php:216
+#: cvw-pb-animation.php:236
+msgid "2400 Milliseconds"
+msgstr ""
+
+#: cvw-pb-animation.php:95 cvw-pb-animation.php:115 cvw-pb-animation.php:217
+#: cvw-pb-animation.php:237
+msgid "2700 Milliseconds"
+msgstr ""
+
+#: cvw-pb-animation.php:96 cvw-pb-animation.php:116 cvw-pb-animation.php:218
+#: cvw-pb-animation.php:238
+msgid "3000 Milliseconds"
+msgstr ""
+
+#: cvw-pb-animation.php:99 cvw-pb-animation.php:221
+msgid "Choose the animation duration"
+msgstr ""
+
+#: cvw-pb-animation.php:103 cvw-pb-animation.php:225
+msgid "Delay"
+msgstr ""
+
+#: cvw-pb-animation.php:106 cvw-pb-animation.php:228
+msgid "0 Milliseconds"
+msgstr ""
+
+#: cvw-pb-animation.php:119 cvw-pb-animation.php:241
+msgid "Choose the animation delay"
+msgstr ""
+
+#: cvw-pb-animation.php:123 cvw-pb-animation.php:245
+msgid "Easing"
+msgstr ""
+
+#: cvw-pb-animation.php:148 cvw-pb-animation.php:270
+msgid "Choose the animation ease"
+msgstr ""
+
+#: cvw-pb-animation.php:153 cvw-pb-animation.php:275
+msgid "Anchor"
+msgstr ""
+
+#: cvw-pb-animation.php:156 cvw-pb-animation.php:278
+msgid "Top bottom"
+msgstr ""
+
+#: cvw-pb-animation.php:157 cvw-pb-animation.php:279
+msgid "Top center"
+msgstr ""
+
+#: cvw-pb-animation.php:158 cvw-pb-animation.php:280
+msgid "Top top"
+msgstr ""
+
+#: cvw-pb-animation.php:159 cvw-pb-animation.php:281
+msgid "Center bottom"
+msgstr ""
+
+#: cvw-pb-animation.php:160 cvw-pb-animation.php:282
+msgid "Center center"
+msgstr ""
+
+#: cvw-pb-animation.php:161 cvw-pb-animation.php:283
+msgid "Center top"
+msgstr ""
+
+#: cvw-pb-animation.php:162 cvw-pb-animation.php:284
+msgid "Bottom bottom"
+msgstr ""
+
+#: cvw-pb-animation.php:163 cvw-pb-animation.php:285
+msgid "Bottom center"
+msgstr ""
+
+#: cvw-pb-animation.php:164 cvw-pb-animation.php:286
+msgid "Bottom top"
+msgstr ""
+
+#: cvw-pb-animation.php:168 cvw-pb-animation.php:289
+msgid "Choose the animation anchor"
+msgstr ""
+
+#: cvw-pb-animation.php:173 cvw-pb-animation.php:176 cvw-pb-animation.php:294
+#: cvw-pb-animation.php:297
+msgid "Repeat"
+msgstr ""
+
+#: cvw-pb-animation.php:177 cvw-pb-animation.php:298
+msgid "Once"
+msgstr ""
+
+#: cvw-pb-animation.php:180 cvw-pb-animation.php:301
+msgid "Repeat animation every time you scroll up / down"
+msgstr ""
+
+#. Name of the plugin
+msgid "AOS Animation for SiteOrigin Page Builder"
+msgstr ""
+
+#. Description of the plugin
+msgid "Extends SiteOrigin Page Builder with AOS animation"
+msgstr ""
+
+#. Author of the plugin
+msgid "Covalenciawebs"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://covalenciawebs.com"
+msgstr ""
