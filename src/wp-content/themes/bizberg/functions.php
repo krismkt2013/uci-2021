@@ -996,6 +996,7 @@ function bizberg_get_banner(){
 				<div class="col-sm-12">
 					<div class="section-title">
 						<h1 class="banner_title">
+							
 							<?php 
 							$banner_title = bizberg_get_theme_mod( 'banner_title' );
 							echo esc_html( $banner_title ? $banner_title : 'Blog' ); ?>
@@ -1012,9 +1013,11 @@ function bizberg_get_banner(){
 		</div>
 		<div class="overlay"></div>
 	</div>
-
+	<hr class="wp-block-separator"/>
+	
 	<?php
 }
+
 
 function bizberg_get_banner_title(){
 	return esc_html( get_theme_mod( 'banner_title' ) );
