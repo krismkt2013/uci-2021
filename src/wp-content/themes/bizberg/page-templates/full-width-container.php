@@ -8,11 +8,11 @@ get_header(); ?>
 	
 <section id="blog" class="blog-section">
 
-	<div class="container">
+	<div class="container" style="width: 100%; max-width: 100%;padding:0;">
 
 		<div class="two-tone-layout">
 
-			<div class="col-sm-12 content-wrapper">
+			<div class="col-sm-12 content-wrapper" style="width: 100%; padding:0;">
 
 				<div class="detail-content single_page eb_page">
 

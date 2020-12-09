@@ -1631,7 +1631,8 @@ function bizberg_get_footer_5(){
 	        ?>
 
 	        <p class="copyright">
-	            <?php bizberg_get_copyright_section(); ?>
+	            
+				<div> Copyright ©2020 UCI-2021 . All rights reserved. </div>
 	        </p>
 	    </div>
 	</footer>
