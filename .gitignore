@@ -1,0 +1,6 @@
+db/ib_buffer_pool
+db/ib_logfile0
+db/ibdata1
+db/ibtmp1
+db/uci_db/wp_options.ibd
+db/uci_db/wp_postmeta.ibd
