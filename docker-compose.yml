@@ -1,11 +1,22 @@
 version: '3.1'
 
 services:
-  wordpress:
-    image: wordpress
+  db:
+    image: mysql:5.7
     restart: always
+    environment:
+      MYSQL_DATABASE: uci_db
+      MYSQL_USER: uci
+      MYSQL_PASSWORD: uci_pw
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+    volumes:
+      - ./db:/var/lib/mysql
+  
+  wordpress:
     depends_on:
       - db
+    image: wordpress
+    restart: always
     ports:
       - 8080:80
     environment:
@@ -30,14 +41,3 @@ services:
       PMA_ARBITRARY: 1
       PMA_USER: uci
       PMA_PASSWORD: uci_pw
-
-  db:
-    image: mysql:5.7
-    restart: always
-    environment:
-      MYSQL_DATABASE: uci_db
-      MYSQL_USER: uci
-      MYSQL_PASSWORD: uci_pw
-      MYSQL_RANDOM_ROOT_PASSWORD: '1'
-    volumes:
-      - ./db:/var/lib/mysql
