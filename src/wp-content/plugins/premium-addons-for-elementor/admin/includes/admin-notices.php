@@ -75,11 +75,11 @@ class Admin_Notices {
         $response = get_transient( $cache_key );
         
         $show_review = get_option( 'pa_review_notice' );
-
+        
         //Make sure Already did was not clicked before.
         if( '1' !== $show_review ) {
             if ( false == $response ) {
-                // $this->get_review_notice();
+                $this->get_review_notice();
             }
         }
         

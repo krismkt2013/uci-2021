@@ -3,9 +3,9 @@ Contributors: Leap13, Rimoun
 Tags: elementor, elements, addons, elementor addon, elementor widget, elementor extensions, page builder, builder, visual editor, wordpress page builder
 Donate Link: https://premiumaddons.com/?utm_source=wp-repo&utm_medium=link&utm_campaign=readme
 Requires at least: 5.0
-Tested Up To: 5.5.3
+Tested Up To: 5.6
 Requires PHP: 5.4
-Stable Tag: 4.0.9
+Stable Tag: 4.1.0
 License: GPL v3.0
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -184,6 +184,14 @@ Premium Addons for Elementor is 100% Ads Free, Ads can only be detected from You
 14. Premium Progress Bar Widget for Elementor
 
 == Changelog ==
+
+= 4.1.0 =
+
+- Tweak: Added Digits option to Expire Type in Countdown widget.
+- Tweak: Added styling options to expire message in Countdown widget.
+- Fixed: Carousel swipes in opposite direction in Team Members widget.
+- Fixed: Plus Sign Color option not working in Blog widget.
+- Fixed: Fancy Text animation issue when Animation Delay option is empty.
 
 = 4.0.9 =
 

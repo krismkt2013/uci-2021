@@ -739,7 +739,7 @@
                     current = 1;
 
                 //Get effect settings
-                var delay = settings.delay || 2.5,
+                var delay = settings.delay || 2500,
                     loopCount = settings.count;
 
                 //If Loop Count option is set
@@ -791,35 +791,53 @@
 
         var countDownElement = $scope.find(".premium-countdown").each(function () {
 
-            var countDownSettings = $(this).data("settings");
-            var label1 = countDownSettings["label1"],
+            var countDownSettings = $(this).data("settings"),
+                label1 = countDownSettings["label1"],
                 label2 = countDownSettings["label2"],
                 newLabe1 = label1.split(","),
-                newLabe2 = label2.split(",");
+                newLabel2 = label2.split(",");
+
             if (countDownSettings["event"] === "onExpiry") {
+
                 $(this).find(".premium-countdown-init").pre_countdown({
-                    labels: newLabe2,
+                    labels: newLabel2,
                     labels1: newLabe1,
                     until: new Date(countDownSettings["until"]),
                     format: countDownSettings["format"],
                     padZeroes: true,
                     timeSeparator: countDownSettings["separator"],
                     onExpiry: function () {
-                        $(this).html(countDownSettings["text"]);
+                        $(this).find('.premium-countdown-init').html(countDownSettings["text"]);
                     },
                     serverSync: function () {
                         return new Date(countDownSettings["serverSync"]);
                     }
                 });
+
             } else if (countDownSettings["event"] === "expiryUrl") {
+
                 $(this).find(".premium-countdown-init").pre_countdown({
-                    labels: newLabe2,
+                    labels: newLabel2,
                     labels1: newLabe1,
                     until: new Date(countDownSettings["until"]),
                     format: countDownSettings["format"],
                     padZeroes: true,
                     timeSeparator: countDownSettings["separator"],
                     expiryUrl: countDownSettings["text"],
+                    serverSync: function () {
+                        return new Date(countDownSettings["serverSync"]);
+                    }
+                });
+
+            } else if (countDownSettings["event"] === "digit") {
+
+                $(this).find(".premium-countdown-init").pre_countdown({
+                    labels: newLabel2,
+                    labels1: newLabe1,
+                    until: new Date(countDownSettings["until"]),
+                    format: countDownSettings["format"],
+                    padZeroes: true,
+                    timeSeparator: countDownSettings["separator"],
                     serverSync: function () {
                         return new Date(countDownSettings["serverSync"]);
                     }
@@ -831,11 +849,12 @@
             function runTimer(el) {
                 return el == 0;
             }
+
             if (times.every(runTimer)) {
+
                 if (countDownSettings["event"] === "onExpiry") {
                     $(this).find(".premium-countdown-init").html(countDownSettings["text"]);
-                }
-                if (countDownSettings["event"] === "expiryUrl") {
+                } else if (countDownSettings["event"] === "expiryUrl") {
                     var editMode = $("body").find("#elementor").length;
                     if (editMode > 0) {
                         $(this).find(".premium-countdown-init").html(
@@ -1564,7 +1583,7 @@
                 ],
                 autoplay: autoPlay,
                 autoplaySpeed: speed,
-                rtl: rtl,
+                rtl: 'true' == rtl ? true : false,
                 nextArrow: nextArrow,
                 prevArrow: prevArrow,
                 draggable: true,

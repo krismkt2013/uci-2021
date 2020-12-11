@@ -1313,10 +1313,10 @@ class Premium_Blog extends Widget_Base {
                 'label'         => __('Plus Sign Color', 'premium-addons-for-elementor'),
                 'type'          => Controls_Manager::COLOR,
                 'selectors'     => [
-                    '{{WRAPPER}} .premium-blog-thumbnail-container:before, {{WRAPPER}} .premium-blog-thumbnail-container:after' => 'background-color: {{VALUE}}',
+                    '{{WRAPPER}} .premium-blog-thumbnail-container:before, {{WRAPPER}} .premium-blog-thumbnail-container:after' => 'background-color: {{VALUE}} !important',
                 ],
                 'condition'     => [
-                    'premium_blog_skin' => ['modern', 'cards']
+                    'premium_blog_skin' => [ 'modern', 'cards' ]
                 ]
             ]
         );
