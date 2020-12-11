@@ -1621,32 +1621,63 @@ function bizberg_get_footer_5(){
 		        <?php 
 		    } ?>
 
-	        <!-- <?php
+	         <?php
 	        wp_nav_menu( array(
 	            'theme_location' => 'footer',
 	            'menu_class'=>'inline-menu',
 	            'container' => 'ul',
 	            'depth' => 1
 	        ) );
-	        ?> -->
+	        ?> 
 			
 	        <p class="copyright">
 			<!-- added -->
-        <div class="row">
-        	<div class="col-md-3 footer-brand animated fadeInLeft">
-			<img src="./wp-content/uploads/2020/12/cropped-UCI_TRACK_NCup_Hong-Kong_China_CMYK.png" alt="" class="img-fluid">
-                <p>2021 UCI Track Cycling Nations Cup Hong Kong, China</p>
-                <p>@2021 UCI Track Nations Cup. All Rights Reserved.</p>
-            </div>
-			<div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow animated fadeInUp" style="visibility: visible; animation-name: fadeInDown;">
-		        			<h3>Contact</h3>
+			<!-- <div class="row"> -->
+          <!-- <div class="col-sm-12 col-md-6">
+            <img src="./wp-content/uploads/2020/12/cropped-UCI_TRACK_NCup_Hong-Kong_China_CMYK.png" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+			<p>Contact Info</p>
+			<p>2021 UCI Track Cycling Nations Cup Hong Kong, China</p>
 		                	<p><i class="fas fa-map-marker-alt"></i> Address: Hong Kong Velodrome, 105-107 Po Hong Road, Tseung Kwan O, Hong Kong</p>
 		                	<p><i class="fas fa-phone"></i> Phone: (+852) xxxx xxxx</p>
 							<p><i class="fab fa-safari"></i> Race: <a href="T.nationscup@cycling.org.hk">T.nationscup@cycling.org.hk</a></p>
 		                	<p><i class="fas fa-envelope"></i> Media: <a href="mailto:T.nationscup@nsquare.com">T.nationscup@nsquare.com</a></p>
-	                    </div>
-        </div>
-				<div> Copyright ©2020 UCI-2021 . All rights reserved. </div>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+            </ul>
+          </div>
+		</div> -->
+		
+     
+		
+		<div class="row d-flex" style="margin: 25px 0;">
+        	<div class="col-md-4 mt-md-0 mt-3 mr-auto p-2 footer-brand animated fadeInLeft " style=" text-align: left;">
+			<img src="./wp-content/uploads/2020/12/cropped-UCI_TRACK_NCup_Hong-Kong_China_CMYK.png" alt="" class="img-fluid">
+                <p>2021 UCI Track Cycling Nations Cup Hong Kong, China</p>
+			</div>
+			<div class="col-md-4 col-lg-4 offset-lg-2 footer-contact animated fadeInUp" style="visibility: visible; animation-name: fadeInDown;">				
+			</div>
+			<div class="col-md-4 col-lg-4 offset-lg-2 p-2 footer-contact animated fadeInUp" style="visibility: visible; animation-name: fadeInDown; text-align: left;">
+		        			<p ><strong>Contact Info:</strong></p>
+		                	<p><i class="fas fa-map-marker-alt"></i> Address: Hong Kong Velodrome, 105-107 Po Hong Road, Tseung Kwan O, Hong Kong</p>
+		                	<p><i class="fas fa-phone"></i> Phone: (+852) xxxx xxxx</p>
+							<p><i class="fab fa-safari"></i> Race: <a href="T.nationscup@cycling.org.hk">T.nationscup@cycling.org.hk</a></p>
+		                	<p><i class="fas fa-envelope"></i> Media: <a href="mailto:T.nationscup@nsquare.com">T.nationscup@nsquare.com</a></p>
+						</div>
+						
+		</div>
+				<hr>
+				<div> Copyright © 2021 UCI Track Nations Cup. All Rights Reserved. </div>
 	        </p>
 	    </div>
 	</footer>
