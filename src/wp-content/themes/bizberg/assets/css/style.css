@@ -5736,7 +5736,7 @@ span.ts-text {
     display: none;
 }
 #top-bar{
-  border-bottom: 1px solid #eee;
+  /* border-bottom: 1px solid #eee; */
 }
 #top-social-left li:hover a {
     background: #3b5998;

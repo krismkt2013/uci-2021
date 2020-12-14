@@ -118,6 +118,31 @@ $primary_header_layout = bizberg_get_theme_mod( 'primary_header_layout' ); ?>
 	} ?>
 
     <nav class="navbar navbar-default with-slicknav">
+		<!--top bar -->
+	<div id="top-bar" class="<?php echo esc_attr( $top_header_status_mobile ? 'enable_top_bar_mobile' : '' ); ?>" style="border-bottom: none;">
+		<div class="container">
+			<div class="row">
+				<div class="top_bar_wrapper">
+					<div class="col-sm-4 col-xs-12">
+
+						<?php 
+						bizberg_get_header_social_links();
+						?>
+
+					</div>
+					<div class="col-sm-8 col-xs-12">
+						<div class="top-bar-right">
+		                   	<ul class="infobox_header_wrapper">	                   		
+		                   		<?php 
+		                   		bizberg_get_infobox_header();
+		                   		?>
+		                   	</ul>
+	                    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
         <div id="navbar" class="collapse navbar-collapse navbar-arrow">
 

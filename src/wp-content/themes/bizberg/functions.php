@@ -2051,8 +2051,8 @@ function bizberg_top_header_pro(){
 	if( $top_header_status == true ){
 		return;
 	} ?>
-
-	<div id="top-bar" class="<?php echo esc_attr( $top_header_status_mobile ? 'enable_top_bar_mobile' : '' ); ?>">
+	<!-- default place -->
+	<!-- <div id="top-bar" class="<?php echo esc_attr( $top_header_status_mobile ? 'enable_top_bar_mobile' : '' ); ?>">
 		<div class="container">
 			<div class="row">
 				<div class="top_bar_wrapper">
@@ -2075,7 +2075,7 @@ function bizberg_top_header_pro(){
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<?php
 }
