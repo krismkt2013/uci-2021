@@ -119,7 +119,7 @@ $primary_header_layout = bizberg_get_theme_mod( 'primary_header_layout' ); ?>
 
     <nav class="navbar navbar-default with-slicknav">
 		<!--top bar -->
-	<div id="top-bar" class="<?php echo esc_attr( $top_header_status_mobile ? 'enable_top_bar_mobile' : '' ); ?>" style="border-bottom: none;">
+	<div id="top-bar" class="<?php echo esc_attr( $top_header_status_mobile ? 'enable_top_bar_mobile' : '' ); ?> collapse navbar-collapse navbar-arrow" style="border-bottom: none;">
 		<div class="container">
 			<div class="row">
 				<div class="top_bar_wrapper">
