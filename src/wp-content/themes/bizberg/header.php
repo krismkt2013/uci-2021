@@ -117,9 +117,9 @@ $primary_header_layout = bizberg_get_theme_mod( 'primary_header_layout' ); ?>
 		<?php
 	} ?>
 
-    <nav class="navbar navbar-default with-slicknav">
+    <nav class="navbar navbar-default with-slicknav " style="background-color: rgba(10,10,10,0.5);">
 		<!--top bar -->
-	<div id="top-bar" class="<?php echo esc_attr( $top_header_status_mobile ? 'enable_top_bar_mobile' : '' ); ?> collapse navbar-collapse navbar-arrow" style="border-bottom: none;">
+	<div id="top-bar" class="<?php echo esc_attr( $top_header_status_mobile ? 'enable_top_bar_mobile' : '' ); ?> collapse navbar-collapse navbar-arrow" style="border-bottom: none; background: rgba(10,10,10,0.5);">
 		<div class="container">
 			<div class="row">
 				<div class="top_bar_wrapper">
@@ -135,8 +135,8 @@ $primary_header_layout = bizberg_get_theme_mod( 'primary_header_layout' ); ?>
 		                   	<ul class="infobox_header_wrapper">	                   		
 		                   		<?php 
 		                   		bizberg_get_infobox_header();
-		                   		?>
-		                   	</ul>
+								   ?>
+							   </ul>
 	                    </div>
 					</div>
 				</div>
@@ -144,7 +144,7 @@ $primary_header_layout = bizberg_get_theme_mod( 'primary_header_layout' ); ?>
 		</div>
 	</div>
 
-        <div id="navbar" class="collapse navbar-collapse navbar-arrow">
+        <div id="navbar" class="collapse navbar-collapse navbar-arrow" style="background-color: transparent;">
 
             <div class="container">
 

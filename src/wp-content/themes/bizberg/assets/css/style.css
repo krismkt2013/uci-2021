@@ -266,9 +266,12 @@ h1.site-title{
     background:transparent;
     border-radius: 0;
 }
-
+body.bizberg_transparent_header header#masthead #top-bar,body.bizberg_transparent_header .navbar-default,body.bizberg_transparent_header .primary_header_2_wrapper {
+  background: rgba(10,10,10,0.5);
+}
 .navbar {
     border-bottom: 0;
+    background: rgba(10,10,10,0.5);
 }
 
 .sidebar .navbar-nav{
@@ -285,6 +288,8 @@ h1.site-title{
     border: none;
     padding: 0;
     margin:0;
+    border-bottom: 0;
+    background: rgba(10,10,10,0.5);
 }
 
 
