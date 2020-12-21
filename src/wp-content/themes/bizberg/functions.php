@@ -1663,16 +1663,16 @@ function bizberg_get_footer_5(){
 		<div class="row d-flex" style="margin: 25px 0;">
         	<div class="col-md-4 mt-md-0 mt-3 mr-auto p-2 footer-brand animated fadeInLeft " style=" text-align: left;">
 			<img src="./wp-content/uploads/2020/12/cropped-UCI_TRACK_NCup_Hong-Kong_China_CMYK.png" alt="" class="img-fluid">
-                <p>2021 UCI Track Cycling Nations Cup Hong Kong, China</p>
+                <!-- <p>2021 UCI Track Cycling Nations Cup Hong Kong, China</p> -->
 			</div>
 			<div class="col-md-4 col-lg-4 offset-lg-2 footer-contact animated fadeInUp" style="visibility: visible; animation-name: fadeInDown;">				
 			</div>
 			<div class="col-md-4 col-lg-4 offset-lg-2 p-2 footer-contact animated fadeInUp" style="visibility: visible; animation-name: fadeInDown; text-align: left;">
-		        			<p ><strong>Contact Info:</strong></p>
-		                	<p><i class="fas fa-map-marker-alt"></i> Address: Hong Kong Velodrome, 105-107 Po Hong Road, Tseung Kwan O, Hong Kong</p>
-		                	<p><i class="fas fa-phone"></i> Phone: (+852) xxxx xxxx</p>
-							<p><i class="fab fa-safari"></i> Race: <a href="T.nationscup@cycling.org.hk">T.nationscup@cycling.org.hk</a></p>
-		                	<p><i class="fas fa-envelope"></i> Media: <a href="mailto:T.nationscup@nsquare.com">T.nationscup@nsquare.com</a></p>
+		        			<p style="color:#ff782d;font-weight: bold;font-size: 18px;"><strong>Contact Info :</strong></p>
+		                	<p><i class="fas fa-map-marker-alt"></i><span style="font-weight: bold;"> Address : </span>Hong Kong Velodrome, 105-107 Po Hong Road, Tseung Kwan O, Hong Kong</p>
+		                	<p><i class="fas fa-phone"></i><span style="font-weight: bold;">  Phone : </span>(+852) xxxx xxxx</p>
+							<p><i class="fab fa-safari"></i><span style="font-weight: bold;">  Race : </span> <a href="T.nationscup@cycling.org.hk">T.nationscup@cycling.org.hk</a></p>
+		                	<p><i class="fas fa-envelope"></i><span style="font-weight: bold;">  Media : </span <a href="mailto:T.nationscup@nsquare.com">T.nationscup@nsquare.com</a></p>
 						</div>
 						
 		</div>

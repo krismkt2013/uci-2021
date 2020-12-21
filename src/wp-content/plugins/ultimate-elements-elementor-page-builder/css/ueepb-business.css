@@ -1,0 +1,187 @@
+/* Design 1 Start */
+.ueepb-business-hours-panel{
+
+}
+.ueepb-business-hours-design_1{
+    padding: 20px 10px;
+    text-align: center;
+    margin: 10px;
+    background: #f9f9f9;
+    border: 1px solid #cfcfcf;
+    max-width: 500px;
+    text-transform: uppercase;
+} 
+.ueepb-business-hours-design_1 .ueepb-bh-title{
+  margin: 20px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.ueepb-business-hours-design_1 .ueepb-bh-title span{
+  padding-bottom: 5px;
+    border-bottom: 4px solid;
+}
+.ueepb-business-hours-design_1 .ueepb-bh-days{
+  margin: 30px 0;
+}
+.ueepb-business-hours-design_1 .ueepb-bh-day{
+  width: 50%;
+  float: left;
+}
+.ueepb-business-hours-design_1 .ueepb-bh-day:last-child{
+  width: 100%;
+  float: left;
+}
+.ueepb-business-hours-design_1 .ueepb-bh-day-name{
+  text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.ueepb-business-hours-design_1 .ueepb-bh-day-time{
+  font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+/* Design 1 End */
+
+/* Design 2 Start */
+.ueepb-business-hours-design_2{
+  padding: 20px 10px;
+    text-align: center;
+    margin: 10px;
+    max-width: 500px;
+    text-transform: uppercase;
+} 
+.ueepb-business-hours-design_2 .ueepb-bh-title{
+  margin: 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ueepb-business-hours-design_2 .ueepb-bh-title span{
+  padding-bottom: 5px;
+    border-bottom: 4px solid;
+}
+.ueepb-business-hours-design_2 .ueepb-bh-days{
+  margin: 30px 0;
+}
+.ueepb-business-hours-design_2 .ueepb-bh-day{
+  margin: 10px 0;
+    border: 1px solid;
+}
+.ueepb-business-hours-design_2 .ueepb-bh-day-name{
+  text-transform: uppercase;
+    float: left;
+    font-size: 16px;
+    width: 40%;
+    background: black;
+    text-align: right;
+    color: #fff;
+    padding: 5px;
+    padding-right: 10px;
+}
+.ueepb-business-hours-design_2 .ueepb-bh-day-time{
+  font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+
+}
+/* Design 2 End */
+
+/* Design 3 Start */
+.ueepb-business-hours-design_3{
+  padding: 20px 10px;
+    text-align: center;
+    margin: 10px;
+    background: #eee;
+    border: 1px solid #cfcfcf;
+    max-width: 500px;
+    text-transform: uppercase;
+} 
+.ueepb-business-hours-design_3 .ueepb-bh-title{
+  margin: 20px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.ueepb-business-hours-design_3 .ueepb-bh-title span{
+  padding-bottom: 5px;
+    border-bottom: 4px solid;
+}
+.ueepb-business-hours-design_3 .ueepb-bh-days{
+  margin: 30px 0;
+}
+.ueepb-business-hours-design_3 .ueepb-bh-day{
+  width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+
+.ueepb-business-hours-design_3 .ueepb-bh-day-name{
+  text-transform: uppercase;
+    font-size: 16px;
+    background: #47474e;
+    margin: auto;
+    color: #fff;
+    padding: 5px;
+}
+.ueepb-business-hours-design_3 .ueepb-bh-day-time{
+  font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+    background: #fff;
+}
+
+/* Design 3 End */
+
+/* Design 4 Start */
+.ueepb-business-hours-design_4{
+  padding: 20px 10px;
+    text-align: center;
+    margin: 10px;
+    background: #eee;
+    border: 1px solid #cfcfcf;
+    max-width: 500px;
+    text-transform: uppercase;
+} 
+.ueepb-business-hours-design_4 .ueepb-bh-title{
+  margin: 20px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.ueepb-business-hours-design_4 .ueepb-bh-title span{
+  padding-bottom: 5px;
+    border-bottom: 4px solid;
+}
+.ueepb-business-hours-design_4 .ueepb-bh-days{
+  margin: 30px 0;
+}
+.ueepb-business-hours-design_4 .ueepb-bh-day{
+  width: 32%;
+    margin: 2px;
+    float: left;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+
+.ueepb-business-hours-design_4 .ueepb-bh-day:last-child{
+  margin: auto;
+  clear: both;
+  float: none;
+}
+
+.ueepb-business-hours-design_4 .ueepb-bh-day-name{
+  text-transform: uppercase;
+    font-size: 14px;
+    background: #47474e;
+    margin: auto;
+    color: #fff;
+    padding: 5px;
+}
+.ueepb-business-hours-design_4 .ueepb-bh-day-time{
+  font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+}
+
+/* Design 4 End */
+
+.ueepb-clear{ clear: both; }

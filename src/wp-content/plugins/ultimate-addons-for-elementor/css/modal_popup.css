@@ -1,0 +1,136 @@
+.mega-model-popup {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0;
+    border-color: #333;
+    -webkit-box-shadow: 0 0 7px #404040;
+    -o-box-shadow: 0 0 7px #404040;
+    -ms-box-shadow: 0 0 7px #404040;
+    box-shadow: 0 0 7px #404040
+}
+
+.modal-popup-box .model-popup-btn {
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s
+}
+
+.mega-model-popup img {
+    max-width: 100%;
+    padding: 0;
+}
+
+.modal-popup-box .mega-uae-btn-section .mega-uae-btn {
+    font-weight: inherit;
+    font-family: inherit;
+}
+
+.b-close {
+    box-shadow: none;
+    font: 700 131% sans-serif;
+    position: absolute;
+    right: -100px;
+    top: -3px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none
+}
+
+.b-close>span {
+    font-size: 30px;
+    font-weight: 100
+}
+
+@media only screen and (max-width:768px) {
+    .b-close {
+        display: none
+    }
+    .mega-model-popup {
+        margin-right: 10px;
+        margin-top: 0!important
+    }
+}
+
+/*========= Animate Css  ===============*/
+
+.mega-uae-btn {
+    float: left;
+    display: block;
+    padding: 7px 20px;
+    border: none;
+    background: none;
+    color: inherit;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    background: #ECEFF1;
+    color: #37474f;
+}
+.mega-uae-btn:focus {
+    outline: none;
+}
+.mega-uae-btn > span {
+    vertical-align: middle;
+}
+
+/* Winona */
+.button--winona {
+    overflow: hidden;
+    padding: 0;
+    -webkit-transition: border-color 0.3s, background-color 0.3s;
+    transition: border-color 0.3s, background-color 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--winona::after {
+    content: attr(data-text);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    color: #3f51b5;
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0);
+}
+.button--winona > span {
+    display: block;
+}
+.button--winona.button--inverted {
+    color: #7986cb;
+}
+.button--winona.button--inverted:after {
+    color: #fff;
+}
+.button--winona::after,
+.button--winona > span {
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    text-align: center;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--winona:hover {
+    border-color: #3f51b5;
+    background-color: rgba(63, 81, 181, 0.1);
+}
+.button--winona.button--inverted:hover {
+    border-color: #21333C;
+    background-color: #21333C;
+}
+.button--winona:hover::after {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.button--winona:hover > span {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+}

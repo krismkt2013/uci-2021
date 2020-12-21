@@ -1,0 +1,188 @@
+.ueepb-woo-table {
+   display: table;
+   width: 100%;
+}
+.ueepb-woo-table-row {
+   display: table-row;
+}
+.ueepb-woo-table-heading {
+   display: table-header-group;
+   background-color: #ddd;
+}
+.ueepb-woo-table-cell, .ueepb-woo-table-head {
+   display: table-cell;
+    padding: 3px 10px;
+    border-top: 1px solid #968787;
+    border-left: 1px solid #968787;
+    vertical-align: middle;
+    
+}
+
+.ueepb-woo-table-head{  }
+.ueepb-woo-table-cell a{ color: #585858; }
+.ueepb-woo-table-row:last-child .ueepb-woo-table-cell{ border-bottom: 1px solid #968787; }
+.ueepb-woo-table-cell:last-child,
+.ueepb-woo-table-head:last-child{ border-right: 1px solid #968787; }
+
+
+.ueepb-woo-table-heading {
+   display: table-header-group;
+   background-color: #ddd;
+}
+.ueepb-woo-table-footer {
+   display: table-footer-group;
+   font-weight: bold;
+   background-color: #ddd;
+}
+.ueepb-woo-table-body {
+   display: table-row-group;
+}
+
+.ueepb-woo-table-add-to-cart{
+   text-align: center;
+   margin: 5px 0;
+   background: #e04a4a;
+   padding: 5px 0;
+   color: #fff;
+}
+.ueepb-woo-table-action-link{
+  text-align: center;
+   margin: 10px 0;
+   background: #e04a4a;
+   padding: 5px 0;
+
+}
+.ueepb-woo-table-action-link a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.ueepb-woo-table-load-more,
+.ueepb-woo-reviews-load-more{
+  width:300px;margin:10px auto;padding:10px 20px;background:#eee;text-align:center;
+  border: 1px solid #cfcfcf;
+}
+
+.ueepb-woo-table_thumbnail{
+  margin: auto;
+}
+
+.ueepb-woo-table-add-cart-message{ text-align:center; }
+.ueepb-woo-table-product-image{ text-align: center; }
+
+
+/*  My Profile */
+.ueepb-my-account-panel{
+  border: 1px solid #cfcfcf;
+}
+.ueepb-my-account-header{
+  background: #f9f9f9;
+  padding: 10px 10px 25px 10px;
+}
+.ueepb-my-account-header-image{
+  margin: 20px 0;
+  text-align: center;
+}
+
+.ueepb-my-account-header-image img{
+  border: 5px solid #fff;
+  outline: 1px solid #cfcfcf;
+}
+.ueepb-my-account-header-fields,.ueepb-my-account-header-logout{
+  text-align: center;
+}
+
+.ueepb-my-account-tabs{
+  border-top:1px solid #cfcfcf;
+  border-bottom:1px solid #cfcfcf;
+  clear: both;
+  margin-bottom: 10px;
+}
+.ueepb-my-account-tab-item{
+    float: left;
+    padding: 10px;
+    background: #e8e8e8;
+    border-right: 1px solid #cfcfcf;
+}
+.ueepb-my-account-tab-item:hover{
+    background: #dcdcdc;
+    cursor: pointer;
+}
+
+.ueepb-active-tab{ background: #dcdcdc; }
+
+.ueepb-my-account-tab-content{ padding: 20px; }
+
+.ueepb-clear{ clear: both; }
+
+.ueepb-my-account-orders-content,
+.ueepb-my-account-downloads-content,
+.ueepb-my-account-profile-content
+{
+  display: none;
+}
+
+.ueepb-form-field-label{
+  float: left;
+  min-width: 100px;
+  width: 30%;
+  font-weight: bold;
+}
+
+.ueepb-form-field-row{
+  padding: 5px 0;
+}
+
+.ueepb-my-account-header-logout-btn a{
+    display: block;
+    width: 100px;
+    background: #eee;
+    margin: auto;
+    box-shadow: none;
+    margin: 5px auto;
+    text-decoration: none;
+    border: 1px solid #cfcfcf;
+}
+
+.ueepb-form-field-value{ float: left; }
+
+
+/* Woo Review List  */
+.ueepb-woo-reviews-list-table{  }
+.ueepb-woo-reviews-list-table-row{ border:   1px solid #b9b7b7; margin-bottom: 10px; }
+.ueepb-woo-reviews-list-table-row-header{ 
+  padding: 10px; 
+  background: #eee;
+}
+.ueepb-woo-reviews-list-product-title{ float: left; }
+.ueepb-woo-reviews-list-product-rating{ float: right; }
+.ueepb-woo-reviews-list-table-row-content{ padding:10px; }
+
+.ueepb-woo-reviews-list-header{ 
+  padding: 10px;
+  border: 1px solid #cfcfcf;
+  margin: 15px 0;
+}
+
+.ueepb-woo-reviews-list-header-label{
+  width: 20%;
+  float: left;
+}
+.ueepb-woo-reviews-list-header-field{
+  width: 30%;
+  float: left;
+}
+
+.ueepb-woo-reviews-list-header-button{
+  cursor: pointer;
+  padding: 0 10px;
+  background: #eee;
+  float: left;
+  border: 1px solid #cfcfcf;
+  margin: 0 10px;
+}
+
+.ueepb-woo-reviews-list-header-field .ueepb_select2-container{
+    min-width: 150px !important;
+}

@@ -1,0 +1,145 @@
+.btn-5 .text,
+.mega_highlight_box i {
+    text-align: center
+}
+
+.mega_highlight_box {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: 0 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+    outline: 0;
+    position: relative;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    display: table-cell!important;
+    vertical-align: middle!important;
+    font-weight: 100
+}
+
+.btn-5 .text,
+.mega_highlight_box .span-after {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s
+}
+
+.mega_highlight_box p {
+    margin-bottom: 0
+}
+
+.mega_highlight_box .span-after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all .3s
+}
+
+.btn-5 {
+    background: #823aa0;
+    color: #fff;
+    min-width: 260px;
+    line-height: 24px;
+    font-size: 16px;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.btn-5:active {
+    background: #9053a9;
+    top: 2px
+}
+
+.btn-5 .text {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    transition: all .3s;
+    backface-visibility: hidden;
+    line-height: 1.5
+}
+
+.btn-5 .span-before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 180%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+}
+
+.btn-5:active .span-before {
+    color: #703b87
+}
+
+.btn-5a:hover .text {
+    -webkit-transform: translateY(300%);
+    -moz-transform: translateY(300%);
+    -ms-transform: translateY(300%);
+    transform: translateY(300%)
+}
+
+.btn-5a .span-before {
+    left: 0;
+    top: -100%
+}
+
+.btn-5a:hover .span-before {
+    top: 0
+}
+
+.btn-5b:hover .text {
+    -webkit-transform: translateX(200%);
+    -moz-transform: translateX(200%);
+    -ms-transform: translateX(200%);
+    transform: translateX(200%)
+}
+
+.btn-5b .span-before {
+    left: -100%;
+    top: 0
+}
+
+.btn-5b:hover .span-before {
+    left: 0
+}
+
+.btn-5c:hover .text {
+    -webkit-transform: translateX(-200%);
+    -moz-transform: translateX(-200%);
+    -ms-transform: translateX(-200%);
+    transform: translateX(-200%)
+}
+
+.btn-5c .span-before {
+    right: -100%;
+    top: 0
+}
+
+.btn-5c:hover .span-before {
+    right: 0
+}
+
+.btn-5d:hover .text {
+    -webkit-transform: translateY(-300%);
+    -moz-transform: translateY(-300%);
+    -ms-transform: translateY(-300%);
+    transform: translateY(-300%)
+}
+
+.btn-5d .span-before {
+    left: 0;
+    bottom: -100%
+}
+
+.btn-5d:hover .span-before {
+    bottom: 0
+}

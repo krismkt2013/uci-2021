@@ -1,0 +1,35 @@
+=================================
+    Version 2.0 
+=================================
+* New Element : WooCommerce My Profile element
+* New Element : WooCommerce Order Tracker element
+* New Element : WooCommerce Category List element
+* New Element : WooCommerce Product Table element
+* New Element : WooCommerce Reviews List element
+* New Element : Business Hours element
+* New Element : Site Tagline element
+* New Element : Site Logo element
+* New Element : Site Links element
+* New Element : Site Title element
+* Compatibility upto WordPress 5.4.1
+
+=================================
+    Version 1.2 
+=================================
+* New Element : Private Content
+* New Element : Contact Form 7 form selector element
+* New Element : Everest Forms form selector element
+* New Element : Ninja Forms form selector element
+* New Element : Formidable Forms form selector element
+* New Element : Navigation Menu
+* Compatibility upto WordPress 5.4 
+
+=================================
+    Version 1.1 
+=================================
+* Compatibility upto WordPress 5.3.2 
+
+=================================
+    Version 1.0 
+=================================
+* Intial Version 

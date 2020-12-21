@@ -1,0 +1,75 @@
+- modify readme
+- add screenshots
+- create org landing page with all the content needed
+
+**Reimagine the Way You Use the WordPress Block Editor**  bold headings
+
+Start multiple paras with Ultimate Elements and link to landing page with links
+
+Check out documentation link
+
+Ultimate Elments - Element Library
+
+[Advanced Heading] : The Advanced Heading block lets you add a combination of a heading and a sub-heading with a separator in between. You can select the heading tag for the heading and manage other settings and customizations too.
+
+
+
+More elements coming soon. Want more elements? [Let us know you'r preference](https://ultimateblocks.com/contact/).
+
+
+
+
+
+
+
+
+
+Image Slider - Sizes not working
+Imgae Viewer - Once popup is open no way to close when the admin login bar is displayed
+Problems with slider and viewer image size. maybe need to upgrade version
+
+
+// https://quadmenu.com/add-to-cart-with-woocommerce-and-ajax-step-by-step/
+
+1) if ( ! function_exists( 'woocommerce_account_view_order' ) ) {
+
+	/**
+	 * My Account > View order template.
+	 *
+	 * @param int $order_id Order ID.
+	 */
+	function woocommerce_account_view_order( $order_id ) {
+		WC_Shortcode_My_Account::view_order( absint( $order_id ) );
+	}
+}
+
+// check wehther other addons have used jquery for functionality. if not, how they use js
+
+
+check if this can be used to display the order details inline on profile without redirecting to the main profile
+
+2) add tabs in PRO version for my viewed products, wishlist, favorite products, recommended products
+
+3) Considering doing an article for woocommerce my accounts tabs as i coudnt find info about downloads tab within first few results
+
+
+https://elementor.github.io/elementor-icons/
+
+NEW ELEMENTs
+- woo 
+	- wishlist
+	- Featured Product Block
+Select and display a single product in a new, high impact fashion. Control text alignment, hide or show the price and description, add a color overlay, change the button call to action, and override the product photo.
+
+	- Products by Attribute Block
+Display a grid of products from your selected attributes.
+
+	- All Reviews
+Show a list of all product reviews on a landing page, blog post or any other page in your site.
+
+	- Product Search
+Help shoppers find your products by placing a search box in specific locations.
+
+	- woo reviews search - allow customers to select a product and search reviews
+
+	- woo my reviews
