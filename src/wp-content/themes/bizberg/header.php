@@ -132,10 +132,23 @@ $primary_header_layout = bizberg_get_theme_mod( 'primary_header_layout' ); ?>
 					</div>
 					<div class="col-sm-8 col-xs-12">
 						<div class="top-bar-right">
-		                   	<ul class="infobox_header_wrapper">	                   		
-		                   		<?php 
+		                   	<ul class="infobox_header_wrapper">
+							   <li>
+							<a target="" href="/">
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" title="English" alt="English" width="16" height="11" style="width: 16px; height: 11px; margin-left: 12px;"> English
+							</a>
+							
+		</li>
+		<li>
+							<a target="" href="/?page_id=863&amp;lang=zh&amp;customize_changeset_uuid=5e3e12b2-0c5d-4604-8ff7-aae25a1ed260&amp;customize_autosaved=on&amp;customize_messenger_channel=preview-27">
+				
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGhSURBVHjaYnzLwPCPAQr+wUhk9Acs+AfMZmJgAAggFiCLp7oarPDffyD6+5fhz9//f/8w/P37//dvEPrzB04+3rQJIIBYmEBq//978hSoFKQaKPf3L4+V9X9urk9r1vz7BdTz6/+vX0DVTLKyQKUAAQRW/+8/VPXfv0xAwMz8Pznpv7o6h7AwIxPDv1+/IAioB+gcgABiAboMpPrPH4Y/fxgZGTlrav6/f////oP/HJzMkyZxP3/+NSvr15cvEOcBFQMEEAvIQX9AzgVq+Pf77/+bN/87Of3ftPk/J+f/f3//797979s3oPEMYG8ANQAEEMQGkPEgt/7+83HaNF6giJERKAC4OD+vW/f782eoH8BOAgggJlBQAnWDhP4ATWLj5/+vpwfiHjwAtISVhweiGmQ82AaAAALZADb+9z+wK3++fMlYUfHj4cNfnz/zHTny5fFjoAaGP7///fnL9PcvUDFAAIHi4d/vP4ySkkwgY4C+//0DqFlUlFlQ8MurVyxyciC//QWpBoYNUDFAADE+ZGD4hRqvyIw/qHHPxsAAEGAA8os95q2GYrQAAAAASUVORK5CYII=" title="中文 (香港)" alt="中文 (香港)" width="16" height="11" style="width: 16px; height: 11px;margin-left: 15px; "> 繁體中文
+							</a>
+					
+		</li>  	                   		
+		                   		<!-- <?php
 		                   		bizberg_get_infobox_header();
-								   ?>
+								   ?> -->
 							   </ul>
 	                    </div>
 					</div>
