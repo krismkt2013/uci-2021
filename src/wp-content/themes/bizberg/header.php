@@ -130,6 +130,7 @@ $primary_header_layout = bizberg_get_theme_mod( 'primary_header_layout' ); ?>
 						?>
 
 					</div>
+					
 					<div class="col-sm-8 col-xs-12">
 						<div class="top-bar-right">
 		                   	<ul class="infobox_header_wrapper">

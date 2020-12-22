@@ -1,0 +1,258 @@
+/**
+ *
+ * @package Sticky Topbar
+ * @author RainaStudio
+ * @version 2.0.0
+ */
+/* # Topbar
+------------------------------------------------ */
+
+.topbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    height: 50px;
+	text-align: center;
+    color: #fff;
+    overflow: hidden;
+    width: 100%;
+	-webkit-box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+    box-shadow: 0 1px 3px rgba(57,73,76,0.35);
+    font-size: 16px;
+    display: table;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4872cb;
+}
+
+.topbar .wrap {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.promo-topbar, .social-icons {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.topbar p {
+    margin: 0 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.topbar .button {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 3.2rem;
+    height: 3rem;
+    margin: 0 0 0 20px;
+    -webkit-transition: all .8s ease;
+    transition: all .8s ease;
+    padding: 0 25px;
+    animation: jittery 4s infinite;
+    border-radius: 25px;
+}
+
+.topbar button:before, 
+.topbar .button:before, 
+.topbar button:after, 
+.topbar .button:after {
+	border-radius: 50px;
+}
+
+.promo-topbar {
+    margin: 5px 0;
+    vertical-align: sub;
+}
+
+.social-icons {
+    margin: 5px 0 5px 20px;    
+}
+
+.social-icons .sm-icons {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid;
+    line-height: 30px;
+	outline: 0;
+	-webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.social-icons a.sm-icons {
+    font-size: 14px;
+}
+
+.social-icons a.facebook:hover {
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+.social-icons a.twitter:hover {
+    background-color: #55acee;
+    border-color: #55acee;
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #0077b5;
+    border-color: #0077b5;
+}
+
+.social-icons a.pinterest:hover {
+    background-color: #bd081c;
+    border-color: #bd081c;
+}
+
+.social-icons a.instagram:hover {
+    background-color: #517fa4;
+    border-color: #517fa4;
+}
+
+.social-icons a.youtube:hover {
+    background-color: #b31217;
+    border-color: #b31217;
+}
+
+.social-icons a.dribbble:hover {
+    background-color: #ea4c89;
+    border-color: #ea4c89;
+}
+
+.social-icons a.googleplus:hover {
+    background-color: #dc4e41;
+    border-color: #dc4e41;
+}
+
+.social-icons a.medium:hover {
+    background-color: #00ab6b;
+    border-color: #00ab6b;
+}
+
+.social-icons a.tumblr:hover {
+    background-color: #35465c;
+    border-color: #35465c;
+}
+
+.social-icons a.vimeo:hover {
+    background-color: #1ab7ae;
+    border-color: #1ab7ae;
+}
+
+.hide_switch {
+    position: absolute;
+    right: 4px;
+    top: 0;
+    cursor: pointer;
+}
+
+@media only screen and ( max-width: 980px ) {
+    .topbar {
+        height: auto;
+    }
+    .promo-topbar {
+        float: none;
+    }
+    .social-icons {
+        float: none;
+        margin: 8px 0;
+    }
+    
+}
+
+@media only screen and ( max-width: 600px ) {
+	.topbar p span {
+		display: none;
+	}
+}
+
+/*
+    Animation
+*/
+@keyframes jittery {
+	5%,
+	50% {
+		transform: scale(1);
+	}
+	10% {
+		transform: scale(0.9);
+	}
+	15% {
+		transform: scale(1.15);
+	}
+	20% {
+		transform: scale(1.15) rotate(-5deg);
+	}
+	25% {
+		transform: scale(1.15) rotate(5deg);
+	}
+	30% {
+		transform: scale(1.15) rotate(-3deg);
+	}
+	35% {
+		transform: scale(1.15) rotate(2deg);
+	}
+	40% {
+		transform: scale(1.15) rotate(0);
+	}
+}
+
+.count_down {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.count_down .counter {
+    justify-content: center;
+    display: flex;
+    backface-visibility: hidden;
+}
+
+.counter .pr {
+    margin: 0 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.counter .pr > span {
+    font-size: 22px;
+    line-height: 22px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.counter .pr > small {
+    line-height: 1;
+    font-size: 12.250003675001102px;
+    max-width: 80.5px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-weight: bold;
+}
