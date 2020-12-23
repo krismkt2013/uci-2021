@@ -167,7 +167,7 @@ $primary_header_layout = bizberg_get_theme_mod( 'primary_header_layout' ); ?>
 	                <?php 	                
 	                
 	                bizberg_get_primary_header_logo();	                	               
-
+					
 	                if( has_nav_menu( 'menu-1' ) ){
 
 	                	$walker = new Bizberg_Menu_With_Description;

@@ -1,6 +1,7 @@
 <div class="detail-content single_page">
-
+<h3 class="blog-title"><?php the_title(); ?></h3>
 	<?php 
+	
 	if( has_post_thumbnail() ){
 
 		echo '<div class="detail_image_wrapper">';
@@ -37,10 +38,16 @@
 					<?php echo esc_html( get_the_date() ); ?>
 				</a> 
 			</div>
+			<div class="bizberg_detail_user_wrapper">			
+					<a href="<?php echo esc_url( get_author_posts_url( $post->post_author ) ); ?>"> 
+						By  <i class="fa fa-user"></i> 
+						<?php echo esc_html( bizberg_get_display_name( $post ) ); ?>		
+					</a> 
+				</div>
 			<?php 
 		} ?>
 
-		<h3 class="blog-title"><?php the_title(); ?></h3>
+		<h3 class="blog-title"></h3>
 
 		<?php
 
