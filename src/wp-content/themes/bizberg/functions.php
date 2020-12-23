@@ -2225,7 +2225,7 @@ function bizberg_transparent_header_class( $classes ) {
 
 	$transparent_header_homepage = bizberg_get_theme_mod( 'transparent_header_homepage' );
 
-	if( $transparent_header_homepage && ( is_home() || is_front_page()||is_page() ) ){
+	if( $transparent_header_homepage && ( is_home() || is_single() ||is_page() ) ){
 		$classes[] = 'bizberg_transparent_header';
 		return $classes;
 	}
@@ -2270,7 +2270,7 @@ function bizberg_get_page_options_header( $name , $default ){
 	$transparent_header_homepage = bizberg_get_theme_mod( 'transparent_header_homepage' );
 	$transparent_header_logo_id = bizberg_get_theme_mod( $name );
 
-	if( $transparent_header_homepage && ( is_home() || is_front_page()||is_page() ) ){
+	if( $transparent_header_homepage && ( is_home() || is_single() ||is_page() ) ){
 		if( empty( $transparent_header_logo_id ) ){
 			return $default;
 		} else {

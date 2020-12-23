@@ -117,7 +117,7 @@ $primary_header_layout = bizberg_get_theme_mod( 'primary_header_layout' ); ?>
 		<?php
 	} ?>
 
-    <nav class="navbar navbar-default with-slicknav " style="background-color: rgba(10,10,10,0.5);">
+    <nav class="navbar navbar-default with-slicknav " style="background-color: rgba(10,10,10,0.5);top:0px;">
 		<!--top bar -->
 	<div id="top-bar" class="<?php echo esc_attr( $top_header_status_mobile ? 'enable_top_bar_mobile' : '' ); ?> collapse navbar-collapse navbar-arrow" style="border-bottom: none; background: rgba(10,10,10,0.5);">
 		<div class="container">
