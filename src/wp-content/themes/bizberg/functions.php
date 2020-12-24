@@ -1607,19 +1607,12 @@ function bizberg_get_footer_5(){
 	<footer 
 	id="footer" 
 	class="footer-style"
-	style="<?php echo ( empty( $social_icons ) ? 'padding-top: 20px;' : '' ); ?>">
-
+	style="<?php echo ( empty( $social_icons ) ? 'padding-top: 20px;' : '' ); ?>background: url(./wp-content/uploads/2020/12/pattern1.jpg) !important;background-color: #131423 !important;padding-top: 0;
+    padding-bottom: 0;">
+		<div  style="background-color: #131423;opacity: 0.97;padding: 20px;">
 	    <div class="container">
 
-	    	<?php 
-	    	if( !empty( $social_icons ) ){ ?>
-		    	<div class="footer_social_links">
-			        <?php 
-			        echo wp_kses_post( $social_icons );
-			        ?>
-		        </div>
-		        <?php 
-		    } ?>
+	    	
 
 	         <?php
 	        wp_nav_menu( array(
@@ -1666,20 +1659,22 @@ function bizberg_get_footer_5(){
                 <!-- <p>2021 UCI Track Cycling Nations Cup Hong Kong, China</p> -->
 			</div>
 			<div class="col-md-4 col-lg-4 offset-lg-2 footer-contact animated fadeInUp" style="visibility: visible; animation-name: fadeInDown; text-align: left;">
-			<p style="color:#ff782d;font-weight: bold;font-size: 18px;"><strong>Contact Info </strong></p>
+			<p style="color:#ff782d;font-weight: bold;font-size: 18px;"><span style="font-family: Rubik, Sans-serif;font-weight: bold;">Contact Info </span></p>
 		                	<p><i class="fas fa-map-marker-alt"></i><span style="font-weight: bold;"> Address : </span>Hong Kong Velodrome, 105-107 Po Hong Road, Tseung Kwan O, Hong Kong</p>				
 			</div>
 			<div class="col-md-4 col-lg-4 offset-lg-2 p-2 footer-contact animated fadeInUp" style="visibility: visible; animation-name: fadeInDown; text-align: left;">
 		                	<p><i class="fas fa-phone"></i><span style="font-weight: bold;">  Phone : </span>(+852) xxxx xxxx</p>
-							<p><i class="fab fa-safari"></i><span style="font-weight: bold;">  Race : </span> <a href="T.nationscup@cycling.org.hk">T.nationscup@cycling.org.hk</a></p>
-		                	<p><i class="fas fa-envelope"></i><span style="font-weight: bold;">  Media : </span ><a href="mailto:T.nationscup@nsquare.com">T.nationscup@nsquare.com</a></p>
+							<p><i class="fab fa-safari"></i><span style="font-weight: bold;">  Race : </span> <a style="color: #ff782d;text-decoration-color: #ff782d;text-decoration: underline;" href="T.nationscup@cycling.org.hk">T.nationscup@cycling.org.hk</a></p>
+		                	<p><i class="fas fa-envelope"></i><span style="font-weight: bold;">  Media : </span ><a style="color: #ff782d;text-decoration-color: #ff782d;text-decoration: underline;" href="mailto:T.nationscup@nsquare.com">T.nationscup@nsquare.com</a></p>
 						</div>
 						
 		</div>
 				<hr>
-				<div> Copyright © 2021 UCI Track Nations Cup. All Rights Reserved. </div>
+				<div style="font-family: Rubik, Sans-serif;
+    letter-spacing: 2px;"> Copyright © 2021 UCI Track Nations Cup. All Rights Reserved. </div>
 	        </p>
 	    </div>
+		</div>
 	</footer>
 
 	<?php
@@ -2058,17 +2053,13 @@ function bizberg_top_header_pro(){
 				<div class="top_bar_wrapper">
 					<div class="col-sm-4 col-xs-12">
 
-						<?php 
-						bizberg_get_header_social_links();
-						?>
+						
 
 					</div>
 					<div class="col-sm-8 col-xs-12">
 						<div class="top-bar-right">
 		                   	<ul class="infobox_header_wrapper">	                   		
-		                   		<?php 
-		                   		bizberg_get_infobox_header();
-		                   		?>
+		                   		
 		                   	</ul>
 	                    </div>
 					</div>
