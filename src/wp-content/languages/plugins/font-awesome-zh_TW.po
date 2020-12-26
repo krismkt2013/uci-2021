@@ -1,0 +1,31 @@
+# Translation of Plugins - Font Awesome - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Font Awesome - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-17 18:14:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Font Awesome - Stable (latest release)\n"
+
+#: includes/class-fontawesome.php:2606
+msgid "You're running in dev mode (FONTAWESOME_ENV === 'development'), but we got an error trying to wp_remote_get the admin UI's asset manifest. That usually means you haven't started up the webpack dev server for admin. Make sure that's running. You can start it under the 'admin/' dir with 'yarn start'."
+msgstr "這個網站正在開發模式 (FONTAWESOME_ENV === 'development') 中執行，但外掛使用 wp_remote_get 函式要求管理後台介面項目資訊清單時發生錯誤。這通常代表這個網站並未為管理後台啟動 Webpack 開發伺服器。請確認已啟用相關伺服器，這項操作可在 admin 目錄下執行 yarn start 完成。"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#. translators: add_options_page menu_title
+#: includes/class-fontawesome.php:767
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#. Plugin URI of the plugin
+msgid "https://fontawesome.com/how-to-use/on-the-web/using-with/wordpress"
+msgstr "https://fontawesome.com/how-to-use/on-the-web/using-with/wordpress"
+
+#. Author URI of the plugin
+msgid "https://fontawesome.com/"
+msgstr "https://fontawesome.com/"
