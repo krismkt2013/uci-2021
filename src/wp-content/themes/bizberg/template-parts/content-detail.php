@@ -10,8 +10,8 @@
 		$post_cat =  bizberg_post_categories( $post , 1 , true , false );
 
 		if( $post_cat != false && $detail_page_category == 'show' ){
-			echo '<div class="bizberg_detail_cat">';
-			echo wp_kses_post( $post_cat );
+			echo '<div class="bizberg_detail_cat" style="font-family: Anton ;font-size: 18px;font-weight: 500;">';
+			echo wp_kses_post( date( 'd M y' , strtotime( get_the_date() ) ) );
 			echo '</div>';
 		}	
 		
@@ -38,12 +38,12 @@
 					<?php echo esc_html( get_the_date() ); ?>
 				</a> 
 			</div>
-			<div class="bizberg_detail_user_wrapper">			
+			<!-- <div class="bizberg_detail_user_wrapper">			
 					<a href="<?php echo esc_url( get_author_posts_url( $post->post_author ) ); ?>"> 
 						By  <i class="fa fa-user"></i> 
 						<?php echo esc_html( bizberg_get_display_name( $post ) ); ?>		
 					</a> 
-				</div>
+				</div> -->
 			<?php 
 		} ?>
 
@@ -82,14 +82,14 @@
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-840ee5b" data-id="840ee5b" data-element_type="column">
 			<div class="elementor-column-wrap elementor-element-populated">
 							<div class="elementor-widget-wrap">
-						<div class="elementor-element elementor-element-3e6d053 elementor-align-right elementor-tablet-align-center elementor-widget elementor-widget-global elementor-global-1351 elementor-widget-button" data-id="3e6d053" data-element_type="widget" data-widget_type="button.default">
+						<div class="elementor-element elementor-element-3e6d053 elementor-align-center elementor-tablet-align-center elementor-widget elementor-widget-global elementor-global-1351 elementor-widget-button" data-id="3e6d053" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button" style="background-color: #FF782D;">
+			<a href="./?page_id=1234" class="elementor-button-link elementor-button elementor-size-sm" role="button" style="background-color: #FF782D;">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-icon elementor-align-icon-right">
 							</span>
-						<span class="elementor-button-text">See all news</span>
+						<span class="elementor-button-text content-details-SEE" >SEE ALL NEWS</span>
 		</span>
 					</a>
 		</div>

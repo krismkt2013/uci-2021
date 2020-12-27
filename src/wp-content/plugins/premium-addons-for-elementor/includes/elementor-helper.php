@@ -874,7 +874,7 @@ class Premium_Template_Tags {
                                                 if( count( $post_cats ) ) {
                                                     foreach( $post_cats as $index => $cat ) {
                                                         $class = isset( $cats_repeater[ $index ] ) ? 'elementor-repeater-item-' . $cats_repeater[$index]['_id'] : '';
-                                                        echo sprintf( '<li><a href="%s" class="%s">%s</a></li>', get_category_link( $cat->cat_ID ), $class, $cat->name );
+                                                        echo sprintf( '<li><a href="%s" class="%s">%s</a></li>', get_category_link( $cat->cat_ID ), $class, ( date( 'd M y' , strtotime( get_the_date() ) ) ) );
                                                     }
                                                 }
                                                 
