@@ -2053,13 +2053,17 @@ function bizberg_top_header_pro(){
 				<div class="top_bar_wrapper">
 					<div class="col-sm-4 col-xs-12">
 
-						
+						<?php 
+						bizberg_get_header_social_links();
+						?>
 
 					</div>
 					<div class="col-sm-8 col-xs-12">
 						<div class="top-bar-right">
 		                   	<ul class="infobox_header_wrapper">	                   		
-		                   		
+		                   		<?php 
+		                   		bizberg_get_infobox_header();
+		                   		?>
 		                   	</ul>
 	                    </div>
 					</div>
