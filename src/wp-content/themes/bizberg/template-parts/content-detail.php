@@ -1,5 +1,5 @@
 <div class="detail-content single_page" style="margin-top: 100px;">
-<h1 class="blog-title" style="text-transform: uppercase;"><?php the_title(); ?></h1>
+<h3 class="blog-title" style="text-transform: uppercase;font-weight: 600;"><?php the_title(); ?></h3>
 	<?php 
 	
 	if( has_post_thumbnail() ){
