@@ -1,0 +1,10 @@
+				@font-face {
+					font-family: 'argon';
+					src: url('/wp-content/uploads/useanyfont/1351argon.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/1351argon.woff') format('woff');
+					font-display: auto;
+				}
+
+				.argon{font-family: 'argon' !important;}
+
+		
