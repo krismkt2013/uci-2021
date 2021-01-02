@@ -273,7 +273,7 @@ return array(
 	'en_AU' => array(
 		'code'     => 'en',
 		'locale'   => 'en_AU',
-		'name'     => 'English',
+		'name'     => 'EN',
 		'dir'      => 'ltr',
 		'flag'     => 'au',
 		'facebook' => 'en_US',
@@ -281,7 +281,7 @@ return array(
 	'en_CA' => array(
 		'code'     => 'en',
 		'locale'   => 'en_CA',
-		'name'     => 'English',
+		'name'     => 'EN',
 		'dir'      => 'ltr',
 		'flag'     => 'ca',
 		'facebook' => 'en_US',
@@ -289,7 +289,7 @@ return array(
 	'en_GB' => array(
 		'code'     => 'en',
 		'locale'   => 'en_GB',
-		'name'     => 'English',
+		'name'     => 'EN',
 		'dir'      => 'ltr',
 		'flag'     => 'gb',
 		'facebook' => 'en_GB',
@@ -297,7 +297,7 @@ return array(
 	'en_NZ' => array(
 		'code'     => 'en',
 		'locale'   => 'en_NZ',
-		'name'     => 'English',
+		'name'     => 'EN',
 		'dir'      => 'ltr',
 		'flag'     => 'nz',
 		'facebook' => 'en_US',
@@ -305,7 +305,7 @@ return array(
 	'en_US' => array(
 		'code'     => 'en',
 		'locale'   => 'en_US',
-		'name'     => 'English',
+		'name'     => 'EN',
 		'dir'      => 'ltr',
 		'flag'     => 'us',
 		'facebook' => 'en_US',
@@ -313,7 +313,7 @@ return array(
 	'en_ZA' => array(
 		'code'     => 'en',
 		'locale'   => 'en_ZA',
-		'name'     => 'English',
+		'name'     => 'EN',
 		'dir'      => 'ltr',
 		'flag'     => 'za',
 		'facebook' => 'en_US',
@@ -1180,7 +1180,7 @@ return array(
 	'zh_HK' => array(
 		'code'     => 'zh',
 		'locale'   => 'zh_HK',
-		'name'     => '中文 (香港)',
+		'name'     => '繁中',
 		'dir'      => 'ltr',
 		'flag'     => 'hk',
 		'facebook' => 'zh_HK',
