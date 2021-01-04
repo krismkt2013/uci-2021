@@ -108,7 +108,7 @@ $client->setAuthConfig('client_secret.json');
 To set this value in PHP, call the `setRedirectUri` function. Note that you must specify a valid redirect URI for your API Console project.
 
 ```php
-$client->setRedirectUri('http://localhost:8080/oauth2callback.php');
+$client->setRedirectUri('/oauth2callback.php');
 ```
 
 ##### `scope`
