@@ -24,7 +24,7 @@ Any application that uses OAuth 2.0 to access Google APIs must have authorizatio
 2.  Click **Create credentials > OAuth client ID**.
 3.  Complete the form. Set the application type to `Web application`. Applications that use languages and frameworks like PHP, Java, Python, Ruby, and .NET must specify authorized **redirect URIs**. The redirect URIs are the endpoints to which the OAuth 2.0 server can send responses.  
       
-    For testing, you can specify URIs that refer to the local machine, such as `http://localhost:8080`. With that in mind, please note that all of the examples in this document use `http://localhost:8080` as the redirect URI.  
+    For testing, you can specify URIs that refer to the local machine, such as `/`. With that in mind, please note that all of the examples in this document use `/` as the redirect URI.  
       
     We recommend that you design your app's auth endpoints so that your application does not expose authorization codes to other resources on the page.
 
@@ -300,7 +300,7 @@ The following example prints a JSON-formatted list of files in a user's Google D
 
 To run this example:
 
-1.  In the API Console, add the URL of the local machine to the list of redirect URLs. For example, add `http://localhost:8080`.
+1.  In the API Console, add the URL of the local machine to the list of redirect URLs. For example, add `/`.
 2.  Create a new directory and change to it. For example:
     
     ```sh
