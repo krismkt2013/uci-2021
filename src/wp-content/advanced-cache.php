@@ -33,12 +33,12 @@ if (false !== $plugin_location) {
 	if (!defined('WPO_CACHE_EXT_DIR')) define('WPO_CACHE_EXT_DIR', '/var/www/html/wp-content/plugins/wp-optimize/cache/extensions');
 }
 
-if (!@file_exists(WPO_CACHE_CONFIG_DIR . '/config-localhost-port3001.php')) { return; }
+if (!@file_exists(WPO_CACHE_CONFIG_DIR . '/config-awesome-kris.info.php')) { return; }
 
-$GLOBALS['wpo_cache_config'] = @json_decode(file_get_contents(WPO_CACHE_CONFIG_DIR . '/config-localhost-port3001.php'), true);
+$GLOBALS['wpo_cache_config'] = @json_decode(file_get_contents(WPO_CACHE_CONFIG_DIR . '/config-awesome-kris.info.php'), true);
 
 if (empty($GLOBALS['wpo_cache_config'])) {
-	include_once(WPO_CACHE_CONFIG_DIR . '/config-localhost-port3001.php');
+	include_once(WPO_CACHE_CONFIG_DIR . '/config-awesome-kris.info.php');
 }
 
 if (empty($GLOBALS['wpo_cache_config']) || empty($GLOBALS['wpo_cache_config']['enable_page_caching'])) { return; }
