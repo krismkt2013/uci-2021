@@ -1,5 +1,5 @@
 <?php
-define('CONCATENATE_SCRIPTS', false);
+
 /**
  * The base configuration for WordPress
  *
@@ -47,6 +47,7 @@ define( 'DB_COLLATE', '');
  *
  * @since 2.6.0
  */
+define('CONCATENATE_SCRIPTS', false);
 define( 'AUTH_KEY',         'a3eb4f7367bd4ef58aa5e2c5d4b2994f833ec323');
 define( 'SECURE_AUTH_KEY',  'dadd1bf823fbaea044af8efce81cb9895d140c2a');
 define( 'LOGGED_IN_KEY',    '484b8415ecdf70af85fb9ded21df023ed78e4036');

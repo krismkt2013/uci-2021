@@ -1,5 +1,4 @@
 <?php
-define('CONCATENATE_SCRIPTS', false);
 /**
  * The base configuration for WordPress
  *
@@ -47,6 +46,7 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
+define('CONCATENATE_SCRIPTS', false);
 define( 'AUTH_KEY',         'put your unique phrase here' );
 define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
 define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
