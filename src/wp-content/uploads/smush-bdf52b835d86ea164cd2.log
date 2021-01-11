@@ -621,3 +621,130 @@
 [2021-01-09 13:29:21 : INFO] - multisite: N 
 [2021-01-09 13:29:21 : INFO] - openssl: OpenSSL 1.1.1d  10 Sep 2019 
 [2021-01-09 13:29:21 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2021-01-11 15:20:11 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:23:27 : INFO] - Re_Smush_It_Task with attachment ID : 3083, autocreated on : January 11, 2021 03:23:27 
+[2021-01-11 15:24:51 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:12 : INFO] - 
+ 
+[2021-01-11 15:25:12 : INFO] - Header for logs at time:  Mon, 11 Jan 2021 15:25:12 +0000 on https://awesome-kris.info 
+[2021-01-11 15:25:12 : INFO] - WP: 5.6 
+[2021-01-11 15:25:12 : INFO] - PHP: 7.4.13 (apache2handler, Linux a40fa0f17d7e 4.15.0-1102-azure #113~16.04.1-Ubuntu SMP Wed Dec 9 20:42:32 UTC 2020 x86_64) 
+[2021-01-11 15:25:12 : INFO] - MySQL: 5.7.32 
+[2021-01-11 15:25:12 : INFO] - WPLANG: zh_TW 
+[2021-01-11 15:25:12 : INFO] - Server: Apache/2.4.38 (Debian) 
+[2021-01-11 15:25:12 : INFO] - Outbound connections: N 
+[2021-01-11 15:25:12 : INFO] - safe_mode: 0 
+[2021-01-11 15:25:12 : INFO] - max_execution_time: 30 
+[2021-01-11 15:25:12 : INFO] - memory_limit: 128M (used: 18.8M | 2M) 
+[2021-01-11 15:25:12 : INFO] - multisite: N 
+[2021-01-11 15:25:12 : INFO] - openssl: OpenSSL 1.1.1d  10 Sep 2019 
+[2021-01-11 15:25:12 : INFO] - A total of 3 tasks of type smush found and will be processed in this iteration 
+[2021-01-11 15:25:12 : INFO] - Set semaphore last lock (smush) time to 2021-01-11 15:25:12 
+[2021-01-11 15:25:12 : INFO] - Semaphore lock (smush) complete 
+[2021-01-11 15:25:12 : INFO] - Processing task with ID : 15, and type 'smush' 
+[2021-01-11 15:25:12 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:12 : INFO] - 95 
+[2021-01-11 15:25:14 : INFO] - Backing up the original image - 2021/01/2-2-updraft-pre-smush-original.png 
+[2021-01-11 15:25:14 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:14 : INFO] - 95 
+[2021-01-11 15:25:15 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:15 : INFO] - 95 
+[2021-01-11 15:25:16 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:16 : INFO] - 95 
+[2021-01-11 15:25:17 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:17 : INFO] - 95 
+[2021-01-11 15:25:18 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:18 : INFO] - 95 
+[2021-01-11 15:25:19 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:19 : INFO] - 95 
+[2021-01-11 15:25:21 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:21 : INFO] - 95 
+[2021-01-11 15:25:22 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:22 : INFO] - 95 
+[2021-01-11 15:25:23 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:23 : INFO] - 95 
+[2021-01-11 15:25:25 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:25 : INFO] - 95 
+[2021-01-11 15:25:25 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:25 : INFO] - 95 
+[2021-01-11 15:25:26 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:26 : INFO] - 95 
+[2021-01-11 15:25:27 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:27 : INFO] - 95 
+[2021-01-11 15:25:27 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:27 : INFO] - 95 
+[2021-01-11 15:25:28 : INFO] - Re_Smush_It_Task with attachment ID : 3079, autocreated on : January 11, 2021 03:20:11 
+[2021-01-11 15:25:28 : INFO] - 95 
+[2021-01-11 15:25:29 : INFO] - Successfully optimized the image - /var/www/html/wp-content/uploads/2021/01/2-2.png.The file was compressed from 534.56 KB to 181.49 KB saving 66.05 percent using WP-Optimize 
+[2021-01-11 15:25:29 : INFO] - Completed processing task with ID : 15, and type 'smush' 
+[2021-01-11 15:25:29 : INFO] - Processing task with ID : 16, and type 'smush' 
+[2021-01-11 15:25:29 : INFO] - Task with ID 16 and type (smush) failed with error code invalid_file_path - The linked attachment ID does not have a valid file path 
+[2021-01-11 15:25:29 : INFO] - Processing task with ID : 17, and type 'smush' 
+[2021-01-11 15:25:29 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:29 : INFO] - 95 
+[2021-01-11 15:25:32 : INFO] - Backing up the original image - 2021/01/8CY03638-min-scaled-1-updraft-pre-smush-original.jpg 
+[2021-01-11 15:25:32 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:32 : INFO] - 95 
+[2021-01-11 15:25:33 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:33 : INFO] - 95 
+[2021-01-11 15:25:34 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:34 : INFO] - 95 
+[2021-01-11 15:25:34 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:34 : INFO] - 95 
+[2021-01-11 15:25:35 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:35 : INFO] - 95 
+[2021-01-11 15:25:37 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:37 : INFO] - 95 
+[2021-01-11 15:25:39 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:39 : INFO] - 95 
+[2021-01-11 15:25:39 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:39 : INFO] - 95 
+[2021-01-11 15:25:40 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:40 : INFO] - 95 
+[2021-01-11 15:25:42 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:42 : INFO] - 95 
+[2021-01-11 15:25:44 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:44 : INFO] - 95 
+[2021-01-11 15:25:44 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:44 : INFO] - 95 
+[2021-01-11 15:25:45 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:45 : INFO] - 95 
+[2021-01-11 15:25:46 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:46 : INFO] - 95 
+[2021-01-11 15:25:47 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:47 : INFO] - 95 
+[2021-01-11 15:25:47 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:47 : INFO] - 95 
+[2021-01-11 15:25:48 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:48 : INFO] - 95 
+[2021-01-11 15:25:48 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:48 : INFO] - 95 
+[2021-01-11 15:25:49 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:49 : INFO] - 95 
+[2021-01-11 15:25:49 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:49 : INFO] - 95 
+[2021-01-11 15:25:50 : INFO] - Re_Smush_It_Task with attachment ID : 3087, autocreated on : January 11, 2021 03:24:51 
+[2021-01-11 15:25:50 : INFO] - 95 
+[2021-01-11 15:25:50 : INFO] - Successfully optimized the image - /var/www/html/wp-content/uploads/2021/01/8CY03638-min-scaled-1.jpg.The file was compressed from 643.39 KB to 619.05 KB saving 3.78 percent using WP-Optimize 
+[2021-01-11 15:25:50 : INFO] - Completed processing task with ID : 17, and type 'smush' 
+[2021-01-11 15:25:50 : INFO] - Set semaphore last lock (smush) time to 2021-01-11 15:25:50 
+[2021-01-11 15:25:50 : INFO] - Decremented the semaphore (smush) by 1 
+[2021-01-11 15:25:50 : INFO] - Semaphore (smush) unlocked 
+[2021-01-11 15:25:50 : INFO] - Successfully processed the queue (smush). 3 tasks were processed out of 3. 
+[2021-01-11 15:25:50 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2021-01-11 15:25:50 : INFO] - Cleaning up tasks of type (smush). A total of 3 tasks will be deleted. 
+[2021-01-11 15:35:14 : INFO] - 
+ 
+[2021-01-11 15:35:14 : INFO] - Header for logs at time:  Mon, 11 Jan 2021 15:35:14 +0000 on https://awesome-kris.info 
+[2021-01-11 15:35:14 : INFO] - WP: 5.6 
+[2021-01-11 15:35:14 : INFO] - PHP: 7.4.13 (apache2handler, Linux a40fa0f17d7e 4.15.0-1102-azure #113~16.04.1-Ubuntu SMP Wed Dec 9 20:42:32 UTC 2020 x86_64) 
+[2021-01-11 15:35:14 : INFO] - MySQL: 5.7.32 
+[2021-01-11 15:35:14 : INFO] - WPLANG: zh_TW 
+[2021-01-11 15:35:14 : INFO] - Server: Apache/2.4.38 (Debian) 
+[2021-01-11 15:35:14 : INFO] - Outbound connections: N 
+[2021-01-11 15:35:14 : INFO] - safe_mode: 0 
+[2021-01-11 15:35:14 : INFO] - max_execution_time: 30 
+[2021-01-11 15:35:14 : INFO] - memory_limit: 128M (used: 19M | 2M) 
+[2021-01-11 15:35:14 : INFO] - multisite: N 
+[2021-01-11 15:35:14 : INFO] - openssl: OpenSSL 1.1.1d  10 Sep 2019 
+[2021-01-11 15:35:14 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
